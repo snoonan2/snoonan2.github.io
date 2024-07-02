@@ -1,2 +1,2 @@
 # snoonan2.github.io
-personal website
+Sophia Noonan Personal Portfolio
