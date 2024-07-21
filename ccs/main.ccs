@@ -1,0 +1,65 @@
+body {
+    background-color: #da9f93; /* light tan pink background */
+    color: #b6465f; /* dark pink text color */
+    padding: 0px 24px;
+}
+body .container-sm {
+    padding-left: 0;
+    padding-right: 0;
+}
+.container-sm {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+#accordion-style {
+    color: #1a2b56;
+    background-color:#ebd4cb;
+    box-shadow: 2px 2px 2px #8906020;
+}
+.bg-navy {
+        background-color: #b6465f
+}
+.navbar-dark .navbar-nav .nav-link {
+color: #ffe3ee; /* Set navbar text color to pink */
+}
+.accordion .card {
+    background-color: #da9f93; /* Set accordion background color to baby pink */
+    border: none; /* Remove border from accordion */
+    border-radius: 2; /* Remove border radius */
+}
+.accordion .card-header {
+    background-color: #b6465f; /* Set accordion header background color to navy */
+    color: #da9f93, /* Set accordion header text color to baby pink */
+    border-bottom: 2px solid #b6465f; /* Add bottom border with navy color */
+}
+.accordion .card-body {
+    background-color: #b6465f; /* Set accordion header background color to navy */
+    color: #b6465f; /* Set accordion body text color to navy */
+}
+footer {
+    background-color: #da9f93; /* Pink background */
+    color: #b6465f; /* Set accordion body text color to navy */
+}
+.center {
+    text-align: center;
+    margin-top: 5%;
+}
+.bold {
+    font-weight: bold;
+}
+.custom-sm {
+    padding-left: 0;
+    padding-right: 0;
+}
+#full-screen-picture {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensure the picture is behind other content */
+}
+.left {
+    text-align: left;
+    margin-top: 5%;
+}
