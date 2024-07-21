@@ -8,32 +8,32 @@
       <title>mb</title>
       <style>
          body {
-         background-color: #da9f93; /* Baby pink background */
-         color: #b6465f; /* Navy text color */
+         background-color: #ffe3ee; /* Baby pink background */
+         color: #1a2b56; /* Navy text color */
          }
          .bg-navy {
-         background-color: #b6465f
+         background-color: #1a2b56
          }
          .navbar-dark .navbar-nav .nav-link {
-         color: #ebd4eb; /* Set navbar text color to pink */
+         color: #ffe3ee; /* Set navbar text color to pink */
          }
          .accordion .card {
-         background-color: #da9f93; /* Set accordion background color to baby pink */
+         background-color: #1a2b56; /* Set accordion background color to baby pink */
          border: none; /* Remove border from accordion */
          border-radius: 2; /* Remove border radius */
          }
          .accordion .card-header {
-         background-color: #b6465f; /* Set accordion header background color to navy */
-         color: #b6465f; /* Set accordion header text color to baby pink */
-         border-bottom: 2px solid #8906020; /* Add bottom border with navy color */
+         background-color: #ffe3ee; /* Set accordion header background color to navy */
+         color: #ffe3ee, /* Set accordion header text color to baby pink */
+         border-bottom: 2px solid #1a2b56; /* Add bottom border with navy color */
          }
          .accordion .card-body {
-         background-color: #b6465f; /* Set accordion header background color to navy */
-         color: #b6465f; /* Set accordion body text color to navy */
+         background-color: #1a2b56; /* Set accordion header background color to navy */
+         color: #ffe3ee; /* Set accordion body text color to navy */
          }
          footer {
-         background-color: #da9f93; /* Pink background */
-         color: #890620; /* Set accordion body text color to navy */
+         background-color: #1a2b56; /* Pink background */
+         color: #ffe3ee; /* Set accordion body text color to navy */
          }
       </style>
       <link rel="icon" href="root/images/logo3.png" type="image/png">
@@ -52,7 +52,7 @@
                   <a class="nav-link" href="#about">About</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="#project">Relavent Cousework</a>
+                  <a class="nav-link" href="#project">Projects</a>
                </li>
                <li class="nav-item">
                   <a class="nav-link" href="#experience">Experience</a>
@@ -62,8 +62,8 @@
       </nav>
       <div class="container" id="bsr-wrapper">
       <div class='my-5'></div>
-      <h1>Sophia Noonan</h1>
-      <h6>Saint Paul, MN  •  University of Notre Dame • Class of 2026 </h6>
+      <h1>Mary Brusco's Digital Diary</h1>
+      <h6>New York •  University of Notre Dame ‘26 • Under construction stil :)</h6>
       <picture>
          <source srcset="root/images/navy.png" type="image/svg+xml">
          <img src="root/images/navy.png" style="width: 100%; height: auto; max-width: 1100px; height: 10px;" class="mx-auto d-block" alt="Responsive image">
@@ -97,7 +97,7 @@
       </div>
       <div class='py-3 my-5'></div>
       <section id="about">
-      <h2>About Me</h2>
+      <h2>About Me!</h2>
       <div class='my-5'></div>
       <div class="row">
          <div class="col-md-9">
@@ -113,7 +113,7 @@
       <section>
       <div class='py-3 my-4'></div>
       <section id="project">
-      <h2>Releveant Coursework:</h2>
+      <h2>Projects:</h2>
       <div class="accordion" id="accordion17278479">
          <div class="card">
             <div class="card-header" id="header-0">
@@ -186,7 +186,7 @@
                <h2 class="mb-0"><button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel70240096" aria-expanded="false" aria-controls="header-4">This Website</button></h2>
             </div>
             <div id="panel70240096" class="collapse" aria-labelledby="headingOne" data-parent="#accordion17278479">
-               <div class="card-body">created with HTML & CSS</div>
+               <div class="card-body">Designed + created by me. HTML/CSS.</div>
                <a href="https://github.com/marybrus/marybrusco" target="_blank">
                   <picture style="max-width: 100%;">
                      <source srcset="root/images/taxic.png" type="image/svg+xml">
@@ -219,23 +219,23 @@
       <div class='my-5'></div>
       <div class='my-5'></div>
       <div class='my-5'></div>
-      <footer style="background-color: #890620; color: #ebd4eb; padding: 10px; position: fixed; bottom: 0; left: 0; width: 100%;">
+      <footer style="background-color: #1a2b56; color: #ffe3ee; padding: 10px; position: fixed; bottom: 0; left: 0; width: 100%;">
          <section id="contact">
             <div class="row">
                <div class="col-md-3">
                   <ul class="list-inline">
                      <li class="list-inline-item mr-3">
-                        <a href="https://github.com/snoonan2" target="_blank" class="text-decoration-none">
+                        <a href="https://github.com/marybrus" target="_blank" class="text-decoration-none">
                         <img src="root/images/github1.png" alt="GitHub" aria-hidden="true" width="30" height="30">
                         </a>
                      </li>
                      <li class="list-inline-item mr-3">
-                        <a href="https://www.linkedin.com/in/sophia-noonan/" target="_blank" class="text-decoration-none">
+                        <a href="https://www.linkedin.com/in/marybrusco/" target="_blank" class="text-decoration-none">
                         <img src="root/images/linkden2.png" alt="LinkedIn" aria-hidden="true" width="30" height="30">
                         </a>
                      </li>
                      <li class="list-inline-item">
-                        <a href="mailto:sophiacnoonan@gmail.com" target="_blank" class="text-decoration-none">
+                        <a href="mailto:mary.db04@gmail.com" target="_blank" class="text-decoration-none">
                         <img src="root/images/email2.png" alt="Email" aria-hidden="true" width="40" height="30">
                         </a>
                      </li>

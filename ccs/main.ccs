@@ -1,6 +1,6 @@
 body {
-    background-color: #da9f93; /* light tan pink background */
-    color: #b6465f; /* dark pink text color */
+    background-color: #ffe3ee; /* Baby pink background */
+    color: #1a2b56; /* Navy text color */
     padding: 0px 24px;
 }
 body .container-sm {
@@ -13,32 +13,32 @@ body .container-sm {
 }
 #accordion-style {
     color: #1a2b56;
-    background-color:#ebd4cb;
-    box-shadow: 2px 2px 2px #8906020;
+    background-color:#fff1f6;
+    box-shadow: 2px 2px 2px #1a2b56;
 }
 .bg-navy {
-        background-color: #b6465f
+        background-color: #1a2b56
 }
 .navbar-dark .navbar-nav .nav-link {
 color: #ffe3ee; /* Set navbar text color to pink */
 }
 .accordion .card {
-    background-color: #da9f93; /* Set accordion background color to baby pink */
+    background-color: #1a2b56; /* Set accordion background color to baby pink */
     border: none; /* Remove border from accordion */
     border-radius: 2; /* Remove border radius */
 }
 .accordion .card-header {
-    background-color: #b6465f; /* Set accordion header background color to navy */
-    color: #da9f93, /* Set accordion header text color to baby pink */
-    border-bottom: 2px solid #b6465f; /* Add bottom border with navy color */
+    background-color: #ffe3ee; /* Set accordion header background color to navy */
+    color: #ffe3ee, /* Set accordion header text color to baby pink */
+    border-bottom: 2px solid #1a2b56; /* Add bottom border with navy color */
 }
 .accordion .card-body {
-    background-color: #b6465f; /* Set accordion header background color to navy */
-    color: #b6465f; /* Set accordion body text color to navy */
+    background-color: #1a2b56; /* Set accordion header background color to navy */
+    color: #ffe3ee; /* Set accordion body text color to navy */
 }
 footer {
-    background-color: #890620; /* Pink background */
-    color: #b6465f; /* Set accordion body text color to navy */
+    background-color: #1a2b56; /* Pink background */
+    color: #ffe3ee; /* Set accordion body text color to navy */
 }
 .center {
     text-align: center;
