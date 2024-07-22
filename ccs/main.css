@@ -19,7 +19,12 @@ body {
     background-color: #1a2b56 !important;
   }
   
-  .navbar-dark .navbar-nav .nav-link {
+  /* Navbar specific styles */
+  .navbar.navbar-expand-lg.navbar-dark.bg-navy {
+    background-color: #1a2b56 !important;
+  }
+  
+  .navbar.navbar-expand-lg.navbar-dark.bg-navy .navbar-nav .nav-link {
     color: #ffe3ee !important; /* Set navbar text color to pink */
   }
   
@@ -82,10 +87,6 @@ body {
     color: #1a2b56 !important;
   }
   
-  .navbar {
-    background-color: #1a2b56 !important;
-  }
-  
   /* Ensure proper spacing and alignment */
   .my-5 {
     margin-top: 3rem !important;
@@ -95,4 +96,9 @@ body {
   .py-3 {
     padding-top: 1rem !important;
     padding-bottom: 1rem !important;
+  }
+  
+  /* Test style for navbar visibility */
+  .navbar {
+    border-bottom: 5px solid red !important;
   }
