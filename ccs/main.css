@@ -1,6 +1,6 @@
 body {
-    background-color: #ffe3ee; /* Baby pink background */
-    color: #1a2b56; /* Navy text color */
+    background-color: #ffe3ee !important; /* Baby pink background */
+    color: #1a2b56 !important; /* Navy text color */
     padding: 0 24px;
   }
   
@@ -10,48 +10,48 @@ body {
   }
   
   #accordion-style {
-    color: #1a2b56;
-    background-color: #fff1f6;
+    color: #1a2b56 !important;
+    background-color: #fff1f6 !important;
     box-shadow: 2px 2px 2px #1a2b56;
   }
   
   .bg-navy {
-    background-color: #1a2b56;
+    background-color: #1a2b56 !important;
   }
   
   .navbar-dark .navbar-nav .nav-link {
-    color: #ffe3ee; /* Set navbar text color to pink */
+    color: #ffe3ee !important; /* Set navbar text color to pink */
   }
   
   .accordion .card {
-    background-color: #1a2b56; /* Set accordion background color to navy */
+    background-color: #1a2b56 !important; /* Set accordion background color to navy */
     border: none;
     border-radius: 2px;
   }
   
   .accordion .card-header {
-    background-color: #ffe3ee; /* Set accordion header background color to baby pink */
-    color: #1a2b56; /* Set accordion header text color to navy */
+    background-color: #ffe3ee !important; /* Set accordion header background color to baby pink */
+    color: #1a2b56 !important; /* Set accordion header text color to navy */
     border-bottom: 2px solid #1a2b56;
   }
   
   .accordion .card-body {
-    background-color: #1a2b56; /* Set accordion body background color to navy */
-    color: #ffe3ee; /* Set accordion body text color to baby pink */
+    background-color: #1a2b56 !important; /* Set accordion body background color to navy */
+    color: #ffe3ee !important; /* Set accordion body text color to baby pink */
   }
   
   footer {
-    background-color: #1a2b56; /* Navy background */
-    color: #ffe3ee; /* Set footer text color to baby pink */
+    background-color: #1a2b56 !important; /* Navy background */
+    color: #ffe3ee !important; /* Set footer text color to baby pink */
   }
   
   .center {
-    text-align: center;
+    text-align: center !important;
     margin-top: 5%;
   }
   
   .bold {
-    font-weight: bold;
+    font-weight: bold !important;
   }
   
   .custom-sm {
@@ -69,6 +69,30 @@ body {
   }
   
   .left {
-    text-align: left;
+    text-align: left !important;
     margin-top: 5%;
+  }
+  
+  /* Additional styles to ensure proper color application */
+  h1, h2, h3, h4, h5, h6 {
+    color: #1a2b56 !important;
+  }
+  
+  .btn-link {
+    color: #1a2b56 !important;
+  }
+  
+  .navbar {
+    background-color: #1a2b56 !important;
+  }
+  
+  /* Ensure proper spacing and alignment */
+  .my-5 {
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+  }
+  
+  .py-3 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
   }
