@@ -1,65 +1,74 @@
 body {
     background-color: #ffe3ee; /* Baby pink background */
     color: #1a2b56; /* Navy text color */
-    padding: 0px 24px;
-}
-body .container-sm {
-    padding-left: 0;
-    padding-right: 0;
-}
-.container-sm {
+    padding: 0 24px;
+  }
+  
+  .container-sm {
     padding-left: 0 !important;
     padding-right: 0 !important;
-}
-#accordion-style {
+  }
+  
+  #accordion-style {
     color: #1a2b56;
-    background-color:#fff1f6;
+    background-color: #fff1f6;
     box-shadow: 2px 2px 2px #1a2b56;
-}
-.bg-navy {
-        background-color: #1a2b56
-}
-.navbar-dark .navbar-nav .nav-link {
-color: #ffe3ee; /* Set navbar text color to pink */
-}
-.accordion .card {
-    background-color: #1a2b56; /* Set accordion background color to baby pink */
-    border: none; /* Remove border from accordion */
-    border-radius: 2; /* Remove border radius */
-}
-.accordion .card-header {
-    background-color: #ffe3ee; /* Set accordion header background color to navy */
-    color: #ffe3ee, /* Set accordion header text color to baby pink */
-    border-bottom: 2px solid #1a2b56; /* Add bottom border with navy color */
-}
-.accordion .card-body {
-    background-color: #1a2b56; /* Set accordion header background color to navy */
-    color: #ffe3ee; /* Set accordion body text color to navy */
-}
-footer {
-    background-color: #1a2b56; /* Pink background */
-    color: #ffe3ee; /* Set accordion body text color to navy */
-}
-.center {
+  }
+  
+  .bg-navy {
+    background-color: #1a2b56;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: #ffe3ee; /* Set navbar text color to pink */
+  }
+  
+  .accordion .card {
+    background-color: #1a2b56; /* Set accordion background color to navy */
+    border: none;
+    border-radius: 2px;
+  }
+  
+  .accordion .card-header {
+    background-color: #ffe3ee; /* Set accordion header background color to baby pink */
+    color: #1a2b56; /* Set accordion header text color to navy */
+    border-bottom: 2px solid #1a2b56;
+  }
+  
+  .accordion .card-body {
+    background-color: #1a2b56; /* Set accordion body background color to navy */
+    color: #ffe3ee; /* Set accordion body text color to baby pink */
+  }
+  
+  footer {
+    background-color: #1a2b56; /* Navy background */
+    color: #ffe3ee; /* Set footer text color to baby pink */
+  }
+  
+  .center {
     text-align: center;
     margin-top: 5%;
-}
-.bold {
+  }
+  
+  .bold {
     font-weight: bold;
-}
-.custom-sm {
+  }
+  
+  .custom-sm {
     padding-left: 0;
     padding-right: 0;
-}
-#full-screen-picture {
+  }
+  
+  #full-screen-picture {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     z-index: -1; /* Ensure the picture is behind other content */
-}
-.left {
+  }
+  
+  .left {
     text-align: left;
     margin-top: 5%;
-}
+  }
