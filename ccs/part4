@@ -52,7 +52,7 @@
                   <a class="nav-link" href="#about">About</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="#project">Courses</a>
+                  <a class="nav-link" href="#project">Projects</a>
                </li>
                <li class="nav-item">
                   <a class="nav-link" href="#experience">Experience</a>
@@ -80,7 +80,7 @@
                <img src="root/images/skyline.png" style="width: 100%; height: auto; max-width: 1000px; max-height: 50%;" class="mx-auto d-block" alt="Responsive image">
             </div>
             <div class="carousel-item">
-               <img src="root/images/ny2.png" style="width: 100%; height: auto; max-width: 1000px; max-height: 50%;" class="mx-auto d-block" alt="Responsive image">
+               <img src="root/images/skyline.png" style="width: 100%; height: auto; max-width: 1000px; max-height: 50%;" class="mx-auto d-block" alt="Responsive image">
             </div>
             <div class="carousel-item">
                <img src="root/images/skyline.png" style="width: 100%; height: auto; max-width: 1000px; max-height: 50%;" class="mx-auto d-block" alt="Responsive image">
@@ -112,7 +112,7 @@
       <section>
       <div class='py-3 my-4'></div>
       <section id="project">
-      <h2>Courses:</h2>
+      <h2>Projects:</h2>
       <div class="accordion" id="accordion17278479">
          <div class="card">
             <div class="card-header" id="header-0">
@@ -125,15 +125,15 @@
                      <a href="https://github.com/marybrus/cktosen_mbrusco_project" target="_blank">
                         <picture style="max-width: 100%;">
                            <source srcset="root/images/taxic.png" type="image/svg+xml">
-                           <img src="root/images/taxic.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
+                           <img src="root/images/redboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
                         </picture>
                      </a>
                   </div>
                   <div class="col-md-6">
                      <a href="https://marybrus.github.io/cktosen_mbrusco_project/" target="_blank">
                         <picture style="max-width: 100%;">
-                           <source srcset="root/images/taxiw.png" type="image/svg+xml">
-                           <img src="root/images/taxiw.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
+                           <source srcset="root/images/redbootspng" type="image/svg+xml">
+                           <img src="root/images/redboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
                         </picture>
                      </a>
                   </div>
@@ -142,40 +142,40 @@
          </div>
          <div class="card">
             <div class="card-header" id="header-1">
-               <h2 class="mb-0"><button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel4565877" aria-expanded="false" aria-controls="header-1">Ubus</button></h2>
+               <h2 class="mb-0"><button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel4565877" aria-expanded="false" aria-controls="header-1">Computer Science for Good</button></h2>
             </div>
             <div id="panel4565877" class="collapse" aria-labelledby="headingOne" data-parent="#accordion17278479">
                <div class="card-body">Used Marvel App software and student feedback to prototype an application to assist commuting students with school bus tracking and pick up time estimation.  Partnered with the New York Public Transportation System to learn issues that the app could solve including school bus tracking technology for both students and teachers </div>
                <picture>
-                  <source srcset="root/images/ubus.png" type="image/svg+xml">
-                  <img src="root/images/ubus.png" width=300 height=275 class="mx-auto d-block" alt="Responsive image">
+                  <source srcset="root/images/csforgoodlogo.png" type="image/svg+xml">
+                  <img src="root/images/csforgoodlogopng" width=300 height=275 class="mx-auto d-block" alt="Responsive image">
                </picture>
             </div>
          </div>
          <div class="card">
             <div class="card-header" id="header-2">
-               <h2 class="mb-0"><button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel71798744" aria-expanded="false" aria-controls="header-2">Crossword</button></h2>
+               <h2 class="mb-0"><button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel71798744" aria-expanded="false" aria-controls="header-2">Women in Computer Science </button></h2>
             </div>
             <div id="panel71798744" class="collapse" aria-labelledby="headingOne" data-parent="#accordion17278479">
                <div class="card-body">Lorem ipsum dolor sit amet.</div>
                <a href="https://github.com/marybrus/crossword" target="_blank">
                   <picture style="text-align: left;">
-                     <source srcset="root/images/taxic.png" type="image/svg+xml">
-                     <img src="root/images/taxic.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
+                     <source srcset="root/images/redboots.png" type="image/svg+xml">
+                     <img src="root/images/redboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
                   </picture>
                </a>
             </div>
          </div>
          <div class="card">
             <div class="card-header" id="header-3">
-               <h2 class="mb-0"><button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel23077795" aria-expanded="false" aria-controls="header-3">Wordle</button></h2>
+               <h2 class="mb-0"><button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel23077795" aria-expanded="false" aria-controls="header-3">Strike Magazine</button></h2>
             </div>
             <div id="panel23077795" class="collapse" aria-labelledby="headingOne" data-parent="#accordion17278479">
                <div class="card-body">Lorem ipsum dolor sit amet.</div>
                <a href="https://github.com/marybrus/wordle" target="_blank">
                   <picture style="max-width: 100%;">
-                     <source srcset="root/images/taxic.png" type="image/svg+xml">
-                     <img src="root/images/taxic.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
+                     <source srcset="root/images/redboots.png" type="image/svg+xml">
+                     <img src="root/images/redboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
                   </picture>
                </a>
             </div>
@@ -188,8 +188,8 @@
                <div class="card-body">Designed & created with. HTML/CSS.</div>
                <a href="https://github.com/marybrus/marybrusco" target="_blank">
                   <picture style="max-width: 100%;">
-                     <source srcset="root/images/taxic.png" type="image/svg+xml">
-                     <img src="root/images/taxic.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
+                     <source srcset="root/images/redboots.png" type="image/svg+xml">
+                     <img src="root/images/redboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
                   </picture>
                </a>
             </div>
@@ -203,7 +203,7 @@
       <h3>Commscope</h3>
       <div class="row">
          <div class="col-md-6">
-            <a href="https://engineeringtomorrow.org/" target="_blank"> 
+            <a href="https://commscopeorg/" target="_blank"> 
             <img src="root/images/commscopelogo.png" style="width: 100%; height: auto; max-width: 100%;" class="mx-auto d-block" alt="Responsive image">
             </a>
          </div>
