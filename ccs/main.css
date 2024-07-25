@@ -25,12 +25,12 @@ body {
 }
 
 .navbar.navbar-expand-lg.navbar-dark.bg-navy .navbar-nav .nav-link {
-  color: #ebd4cb !important; /* Set navbar text color to light beige */
+  color: #890620 !important; /* Set navbar text color to light beige */
 }
 
 .accordion .card {
   background-color: #890620 !important; /* Set accordion background color to deep red */
-  border: none;
+  border: 2px;
   border-radius: 2px;
 }
 

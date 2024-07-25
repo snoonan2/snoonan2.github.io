@@ -115,32 +115,6 @@
       <h2>Projects:</h2>
       <div class="accordion" id="accordion17278479">
          <div class="card">
-            <div class="card-header" id="header-0">
-               <h2 class="mb-0"><button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel82219320" aria-expanded="false" aria-controls="header-0">Squirrel Behavior in NYC</button></h2>
-            </div>
-            <div id="panel82219320" class="collapse" aria-labelledby="headingOne" data-parent="#accordion17278479">
-               <div class="card-body">Python project collecting and drawing visual and conceptual conclusions on the squirrel population in Central Park, NY.</div>
-               <div class="row">
-                  <div class="col-md-6">
-                     <a href="https://github.com/marybrus/cktosen_mbrusco_project" target="_blank">
-                        <picture style="max-width: 100%;">
-                           <source srcset="images/taxic.png" type="image/svg+xml">
-                           <img src="images/redboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
-                        </picture>
-                     </a>
-                  </div>
-                  <div class="col-md-6">
-                     <a href="https://marybrus.github.io/cktosen_mbrusco_project/" target="_blank">
-                        <picture style="max-width: 100%;">
-                           <source srcset="images/redbootspng" type="image/svg+xml">
-                           <img src="images/redboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
-                        </picture>
-                     </a>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="card">
             <div class="card-header" id="header-1">
                <h2 class="mb-0"><button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel4565877" aria-expanded="false" aria-controls="header-1">Computer Science for Good</button></h2>
             </div>
@@ -148,7 +122,7 @@
                <div class="card-body">Used Marvel App software and student feedback to prototype an application to assist commuting students with school bus tracking and pick up time estimation.  Partnered with the New York Public Transportation System to learn issues that the app could solve including school bus tracking technology for both students and teachers </div>
                <picture>
                   <source srcset="images/csforgoodlogo.png" type="image/svg+xml">
-                  <img src="images/csforgoodlogopng" width=300 height=275 class="mx-auto d-block" alt="Responsive image">
+                  <img src="images/csforgoodlogo.png" width=300 height=275 class="mx-auto d-block" alt="Responsive image">
                </picture>
             </div>
          </div>
@@ -160,8 +134,8 @@
                <div class="card-body">Lorem ipsum dolor sit amet.</div>
                <a href="https://github.com/marybrus/crossword" target="_blank">
                   <picture style="text-align: left;">
-                     <source srcset="images/redboots.png" type="image/svg+xml">
-                     <img src="images/redboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
+                     <source srcset="images/blackboots.png" type="image/svg+xml">
+                     <img src="images/blackboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
                   </picture>
                </a>
             </div>
@@ -174,8 +148,8 @@
                <div class="card-body">Lorem ipsum dolor sit amet.</div>
                <a href="https://github.com/marybrus/wordle" target="_blank">
                   <picture style="max-width: 100%;">
-                     <source srcset="images/redboots.png" type="image/svg+xml">
-                     <img src="images/redboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
+                     <source srcset="images/blackboots.png" type="image/svg+xml">
+                     <img src="images/blackboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
                   </picture>
                </a>
             </div>
@@ -188,8 +162,8 @@
                <div class="card-body">Designed & Created with HTML/CSS.</div>
                <a href="https://github.com/marybrus/marybrusco" target="_blank">
                   <picture style="max-width: 100%;">
-                     <source srcset="images/redboots.png" type="image/svg+xml">
-                     <img src="images/redboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
+                     <source srcset="images/blackboots.png" type="image/svg+xml">
+                     <img src="images/blackboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
                   </picture>
                </a>
             </div>
