@@ -36,12 +36,12 @@
          color: #ebd4cb; /* Set footer text color to light beige */
          }
       </style>
-      <link rel="icon" href="root/images/personal1.png" type="image/png">
+      <link rel="icon" href="images/personal1.png" type="image/png">
    </head>
    <body>
       <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #890620;">
          <a class="navbar-brand" href="#">
-         <img src="root/images/personal1.png" width="30" height="30" class="d-inline-block align-top" alt="">
+         <img src="images/personal1.png" width="30" height="30" class="d-inline-block align-top" alt="">
          </a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
@@ -65,8 +65,8 @@
       <h1>Sophia Noonan's Digital Portfolio</h1>
       <h6>• Saint Paul, MN •  University of Notre Dame • Class of 2026 • </h6>
       <picture>
-         <source srcset="root/images/navy.png" type="image/svg+xml">
-         <img src="root/images/navy.png" style="width: 100%; height: auto; max-width: 1100px; height: 10px;" class="mx-auto d-block" alt="Responsive image">
+         <source srcset="images/navy.png" type="image/svg+xml">
+         <img src="images/navy.png" style="width: 100%; height: auto; max-width: 1100px; height: 10px;" class="mx-auto d-block" alt="Responsive image">
       </picture>
       <div class='my-5'></div>
       <div id="carousel-ID" class="carousel slide" data-ride="carousel">
@@ -77,13 +77,13 @@
          </ol>
          <div class="carousel-inner">
             <div class="carousel-item active">
-               <img src="root/images/skyline.png" style="width: 100%; height: auto; max-width: 1000px; max-height: 50%;" class="mx-auto d-block" alt="Responsive image">
+               <img src="images/skyline.png" style="width: 100%; height: auto; max-width: 1000px; max-height: 50%;" class="mx-auto d-block" alt="Responsive image">
             </div>
             <div class="carousel-item">
-               <img src="root/images/skyline.png" style="width: 100%; height: auto; max-width: 1000px; max-height: 50%;" class="mx-auto d-block" alt="Responsive image">
+               <img src="images/skyline.png" style="width: 100%; height: auto; max-width: 1000px; max-height: 50%;" class="mx-auto d-block" alt="Responsive image">
             </div>
             <div class="carousel-item">
-               <img src="root/images/skyline.png" style="width: 100%; height: auto; max-width: 1000px; max-height: 50%;" class="mx-auto d-block" alt="Responsive image">
+               <img src="images/skyline.png" style="width: 100%; height: auto; max-width: 1000px; max-height: 50%;" class="mx-auto d-block" alt="Responsive image">
             </div>
          </div>
          <a class="carousel-control-prev" href="#carousel-ID" role="button" data-slide="prev">
@@ -106,7 +106,7 @@
             </p>
          </div>
          <div class="col-md-3">
-            <img src="root/images/aboutme.png" style="width: 100%; height: auto; max-width: 100%;" class="mx-auto d-block" alt="Responsive image">
+            <img src="images/aboutme.png" style="width: 100%; height: auto; max-width: 100%;" class="mx-auto d-block" alt="Responsive image">
          </div>
       </div>
       <section>
@@ -124,16 +124,16 @@
                   <div class="col-md-6">
                      <a href="https://github.com/marybrus/cktosen_mbrusco_project" target="_blank">
                         <picture style="max-width: 100%;">
-                           <source srcset="root/images/taxic.png" type="image/svg+xml">
-                           <img src="root/images/redboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
+                           <source srcset="images/taxic.png" type="image/svg+xml">
+                           <img src="images/redboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
                         </picture>
                      </a>
                   </div>
                   <div class="col-md-6">
                      <a href="https://marybrus.github.io/cktosen_mbrusco_project/" target="_blank">
                         <picture style="max-width: 100%;">
-                           <source srcset="root/images/redbootspng" type="image/svg+xml">
-                           <img src="root/images/redboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
+                           <source srcset="images/redbootspng" type="image/svg+xml">
+                           <img src="images/redboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
                         </picture>
                      </a>
                   </div>
@@ -147,8 +147,8 @@
             <div id="panel4565877" class="collapse" aria-labelledby="headingOne" data-parent="#accordion17278479">
                <div class="card-body">Used Marvel App software and student feedback to prototype an application to assist commuting students with school bus tracking and pick up time estimation.  Partnered with the New York Public Transportation System to learn issues that the app could solve including school bus tracking technology for both students and teachers </div>
                <picture>
-                  <source srcset="root/images/csforgoodlogo.png" type="image/svg+xml">
-                  <img src="root/images/csforgoodlogopng" width=300 height=275 class="mx-auto d-block" alt="Responsive image">
+                  <source srcset="images/csforgoodlogo.png" type="image/svg+xml">
+                  <img src="images/csforgoodlogopng" width=300 height=275 class="mx-auto d-block" alt="Responsive image">
                </picture>
             </div>
          </div>
@@ -160,8 +160,8 @@
                <div class="card-body">Lorem ipsum dolor sit amet.</div>
                <a href="https://github.com/marybrus/crossword" target="_blank">
                   <picture style="text-align: left;">
-                     <source srcset="root/images/redboots.png" type="image/svg+xml">
-                     <img src="root/images/redboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
+                     <source srcset="images/redboots.png" type="image/svg+xml">
+                     <img src="images/redboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
                   </picture>
                </a>
             </div>
@@ -174,8 +174,8 @@
                <div class="card-body">Lorem ipsum dolor sit amet.</div>
                <a href="https://github.com/marybrus/wordle" target="_blank">
                   <picture style="max-width: 100%;">
-                     <source srcset="root/images/redboots.png" type="image/svg+xml">
-                     <img src="root/images/redboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
+                     <source srcset="images/redboots.png" type="image/svg+xml">
+                     <img src="images/redboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
                   </picture>
                </a>
             </div>
@@ -188,8 +188,8 @@
                <div class="card-body">Designed & Created with HTML/CSS.</div>
                <a href="https://github.com/marybrus/marybrusco" target="_blank">
                   <picture style="max-width: 100%;">
-                     <source srcset="root/images/redboots.png" type="image/svg+xml">
-                     <img src="root/images/redboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
+                     <source srcset="images/redboots.png" type="image/svg+xml">
+                     <img src="images/redboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
                   </picture>
                </a>
             </div>
@@ -204,7 +204,7 @@
       <div class="row">
          <div class="col-md-6">
             <a href="https://commscopeorg/" target="_blank"> 
-            <img src="root/images/commscopelogo.png" style="width: 100%; height: auto; max-width: 100%;" class="mx-auto d-block" alt="Responsive image">
+            <img src="images/commscopelogo.png" style="width: 100%; height: auto; max-width: 100%;" class="mx-auto d-block" alt="Responsive image">
             </a>
          </div>
          <div class="col-md-6">
@@ -225,22 +225,22 @@
                   <ul class="list-inline">
                      <li class="list-inline-item mr-3">
                         <a href="https://github.com/snoonan2" target="_blank" class="text-decoration-none">
-                        <img src="root/images/github1.png" alt="GitHub" aria-hidden="true" width="30" height="30">
+                        <img src="images/github1.png" alt="GitHub" aria-hidden="true" width="30" height="30">
                         </a>
                      </li>
                      <li class="list-inline-item mr-3">
                         <a href="https://www.linkedin.com/in/sophia-noonan/" target="_blank" class="text-decoration-none">
-                        <img src="root/images/linkden2.png" alt="LinkedIn" aria-hidden="true" width="30" height="30">
+                        <img src="images/linkden2.png" alt="LinkedIn" aria-hidden="true" width="30" height="30">
                         </a>
                      </li>
                      <li class="list-inline-item">
                         <a href="mailto:snoonan2@nd.edu" target="_blank" class="text-decoration-none">
-                        <img src="root/images/email2.png" alt="Email" aria-hidden="true" width="40" height="30">
+                        <img src="images/email2.png" alt="Email" aria-hidden="true" width="40" height="30">
                         </a>
                      </li>
                      <li class="list-inline-item mr-3">
                         <a href="https://docs.google.com/document/d/1M8n7vsFY3eJZzyUTq8cE5C4kykMgxl9f5hMIkd_hPxg/edit?usp=sharing" target="_blank" class="text-decoration-none">
-                        <img src="root/images/resume3.png" alt="Resume" aria-hidden="true" width=35" height="30">
+                        <img src="images/resume3.png" alt="Resume" aria-hidden="true" width=35" height="30">
                         </a>
                      </li>
                   </ul>
