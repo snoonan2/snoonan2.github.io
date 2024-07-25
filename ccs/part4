@@ -25,7 +25,7 @@
          .accordion .card-header {
          background-color: #ffe3ee; /* Set accordion header background color to navy */
          color: #ffe3ee, /* Set accordion header text color to baby pink */
-         border-bottom: 2px solid #1a2b56; /* Add bottom border with navy color */
+         border-bottom 2px solid #1a2b56; /* Add bottom border with navy color */
          }
          .accordion .card-body {
          background-color: #1a2b56; /* Set accordion header background color to navy */
