@@ -8,38 +8,38 @@
       <title>sophiacnoonan</title>
       <style>
          body {
-         background-color: #ffe3ee; /* Baby pink background */
-         color: #1a2b56; /* Navy text color */
+         background-color: #ebd4cb; /* Light beige background */
+         color: #000000; /* Black text color */
          }
          .bg-navy {
-         background-color: #1a2b56
+         background-color: #890620 /* Deep red instead of navy */
          }
          .navbar-dark .navbar-nav .nav-link {
-         color: #ffe3ee; /* Set navbar text color to pink */
+         color: #ebd4cb; /* Set navbar text color to light beige */
          }
          .accordion .card {
-         background-color: #1a2b56; /* Set accordion background color to baby pink */
+         background-color: #890620; /* Set accordion background color to deep red */
          border: none; /* Remove border from accordion */
-         border-radius: 2; /* Remove border radius */
+         border-radius: 2px; /* Add slight border radius */
          }
          .accordion .card-header {
-         background-color: #ffe3ee; /* Set accordion header background color to navy */
-         color: #ffe3ee, /* Set accordion header text color to baby pink */
-         border-bottom 2px solid #1a2b56; /* Add bottom border with navy color */
+         background-color: #da9f93; /* Set accordion header background color to light pink */
+         color: #000000; /* Set accordion header text color to black */
+         border-bottom: 2px solid #890620; /* Add bottom border with deep red color */
          }
          .accordion .card-body {
-         background-color: #1a2b56; /* Set accordion header background color to navy */
-         color: #ffe3ee; /* Set accordion body text color to navy */
+         background-color: #890620; /* Set accordion body background color to deep red */
+         color: #ebd4cb; /* Set accordion body text color to light beige */
          }
          footer {
-         background-color: #1a2b56; /* Pink background */
-         color: #ffe3ee; /* Set accordion body text color to navy */
+         background-color: #890620; /* Deep red background */
+         color: #ebd4cb; /* Set footer text color to light beige */
          }
       </style>
       <link rel="icon" href="root/images/personal1.png" type="image/png">
    </head>
    <body>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-navy">
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #890620;">
          <a class="navbar-brand" href="#">
          <img src="root/images/personal1.png" width="30" height="30" class="d-inline-block align-top" alt="">
          </a>
@@ -218,7 +218,7 @@
       <div class='my-5'></div>
       <div class='my-5'></div>
       <div class='my-5'></div>
-      <footer style="background-color: #1a2b56; color: #ffe3ee; padding: 10px; position: fixed; bottom: 0; left: 0; width: 100%;">
+      <footer style="background-color: #890620; color: #ebd4cb; padding: 10px; position: fixed; bottom: 0; left: 0; width: 100%;">
          <section id="contact">
             <div class="row">
                <div class="col-md-3">

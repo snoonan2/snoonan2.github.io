@@ -1,104 +1,104 @@
 body {
-    background-color: #ffe3ee !important; /* Baby pink background */
-    color: #1a2b56 !important; /* Navy text color */
-    padding: 0 24px;
-  }
-  
-  .container-sm {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-  
-  #accordion-style {
-    color: #1a2b56 !important;
-    background-color: #fff1f6 !important;
-    box-shadow: 2px 2px 2px #1a2b56;
-  }
-  
-  .bg-navy {
-    background-color: #1a2b56 !important;
-  }
-  
-  /* Navbar specific styles */
-  .navbar.navbar-expand-lg.navbar-dark.bg-navy {
-    background-color: #1a2b56 !important;
-  }
-  
-  .navbar.navbar-expand-lg.navbar-dark.bg-navy .navbar-nav .nav-link {
-    color: #ffe3ee !important; /* Set navbar text color to pink */
-  }
-  
-  .accordion .card {
-    background-color: #1a2b56 !important; /* Set accordion background color to navy */
-    border: none;
-    border-radius: 2px;
-  }
-  
-  .accordion .card-header {
-    background-color: #ffe3ee !important; /* Set accordion header background color to baby pink */
-    color: #1a2b56 !important; /* Set accordion header text color to navy */
-    border-bottom: 2px solid #1a2b56;
-  }
-  
-  .accordion .card-body {
-    background-color: #1a2b56 !important; /* Set accordion body background color to navy */
-    color: #ffe3ee !important; /* Set accordion body text color to baby pink */
-  }
-  
-  footer {
-    background-color: #1a2b56 !important; /* Navy background */
-    color: #ffe3ee !important; /* Set footer text color to baby pink */
-  }
-  
-  .center {
-    text-align: center !important;
-    margin-top: 5%;
-  }
-  
-  .bold {
-    font-weight: bold !important;
-  }
-  
-  .custom-sm {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  
-  #full-screen-picture {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1; /* Ensure the picture is behind other content */
-  }
-  
-  .left {
-    text-align: left !important;
-    margin-top: 5%;
-  }
-  
-  /* Additional styles to ensure proper color application */
-  h1, h2, h3, h4, h5, h6 {
-    color: #1a2b56 !important;
-  }
-  
-  .btn-link {
-    color: #1a2b56 !important;
-  }
-  
-  /* Ensure proper spacing and alignment */
-  .my-5 {
-    margin-top: 3rem !important;
-    margin-bottom: 3rem !important;
-  }
-  
-  .py-3 {
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
-  }
-  
-  /* Test style for navbar visibility */
-  .navbar {
-    border-bottom: 5px solid red !important;
-  }
+  background-color: #ebd4cb !important; /* Light beige background */
+  color: #000000 !important; /* Black text color */
+  padding: 0 24px;
+}
+
+.container-sm {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+#accordion-style {
+  color: #000000 !important;
+  background-color: #da9f93 !important;
+  box-shadow: 2px 2px 2px #890620;
+}
+
+.bg-navy {
+  background-color: #890620 !important; /* Deep red instead of navy */
+}
+
+/* Navbar specific styles */
+.navbar.navbar-expand-lg.navbar-dark.bg-navy {
+  background-color: #890620 !important;
+}
+
+.navbar.navbar-expand-lg.navbar-dark.bg-navy .navbar-nav .nav-link {
+  color: #ebd4cb !important; /* Set navbar text color to light beige */
+}
+
+.accordion .card {
+  background-color: #890620 !important; /* Set accordion background color to deep red */
+  border: none;
+  border-radius: 2px;
+}
+
+.accordion .card-header {
+  background-color: #da9f93 !important; /* Set accordion header background color to light pink */
+  color: #000000 !important; /* Set accordion header text color to black */
+  border-bottom: 2px solid #890620;
+}
+
+.accordion .card-body {
+  background-color: #890620 !important; /* Set accordion body background color to deep red */
+  color: #ebd4cb !important; /* Set accordion body text color to light beige */
+}
+
+footer {
+  background-color: #890620 !important; /* Deep red background */
+  color: #ebd4cb !important; /* Set footer text color to light beige */
+}
+
+.center {
+  text-align: center !important;
+  margin-top: 5%;
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+.custom-sm {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#full-screen-picture {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Ensure the picture is behind other content */
+}
+
+.left {
+  text-align: left !important;
+  margin-top: 5%;
+}
+
+/* Additional styles to ensure proper color application */
+h1, h2, h3, h4, h5, h6 {
+  color: #890620 !important;
+}
+
+.btn-link {
+  color: #890620 !important;
+}
+
+/* Ensure proper spacing and alignment */
+.my-5 {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+}
+
+.py-3 {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+/* Test style for navbar visibility */
+.navbar {
+  border-bottom: 5px solid #b6465f !important;
+}
