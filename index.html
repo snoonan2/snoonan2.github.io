@@ -12,8 +12,8 @@
             background-color: #ebd4cb;
             color: #000000;
             font-family: 'Lato', sans-serif !important;
-            padding-top: 56px; /* Add padding to account for fixed navbar */
-            padding-bottom: 60px; /* Add padding to account for fixed footer */
+            padding-top: 10px; /* Add padding to account for fixed navbar */
+            padding-bottom: 10px; /* Add padding to account for fixed footer */
          }
          .bg-navy {
             background-color: #890620;
@@ -22,18 +22,29 @@
             color: #ebd4cb;
          }
          .accordion .card {
+            margin-bottom: 10px; /* Adjust this value to increase or decrease space */
             background-color: #890620;
             border: none;
             border-radius: 2px;
          }
+         /* Remove margin from the last card to avoid extra space at the bottom */
+         .accordion .card:last-child {
+            margin-bottom: 0;
+         }
+         /* Optionally, add some padding to the accordion container */
+         .accordion {
+            padding: 10px 0; /* Adds some vertical padding to the accordion container */
+         }
+         /* If you want rounded corners on the cards */
+         .accordion .card,
+         .accordion .card-header {
+            border-radius: 5px; /* Adjust this value for more or less rounded corners */
+         }
+         /* Ensure the card header keeps its original background color */
          .accordion .card-header {
             background-color: #da9f93;
             color: #000000;
             border-bottom: 2px solid #890620;
-         }
-         .accordion .card-body {
-            background-color: #890620;
-            color: #ebd4cb;
          }
          footer {
             background-color: #890620;
@@ -69,7 +80,8 @@
             margin-top: 56px; /* Match the height of the navbar */
             margin-bottom: 60px; /* Match the height of the footer */
             overflow-y: auto;
-            height: calc(100vh - 116px); /* Viewport height minus navbar and footer height */
+            padding-top: 15px; /* Add some padding at the top of the content */
+            padding-bottom: 15px; /* Add some padding at the bottom of the content */
          }
          .experience-section {
         margin-top: 30px;
@@ -126,7 +138,7 @@
 
          <picture>
             <source srcset="images/boots.gif" type="image/svg+xml">
-            <img src="images/boots.gif" style="width: 100%; height: auto; max-width: 1100px; height: 10px;" class="mx-auto d-block" alt="Responsive image">
+            <img src="images/boots.gif" style="width: 100%; height: auto; max-width: 1100px; height: auto;" class="mx-auto d-block" alt="Responsive image">
          </picture>
          
 
