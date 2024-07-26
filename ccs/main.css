@@ -9,13 +9,15 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family: 'Lato', sans-serif !important; /* Futura alternative */
+    font-family: 'Lato', sans-serif !important;
     font-weight: 400;
     line-height: 1.6;
+    padding-top: 56px; /* Add padding to account for fixed navbar */
+    padding-bottom: 60px; /* Add padding to account for fixed footer */
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Playfair Display', serif !important; /* Didot alternative */
+    font-family: 'Playfair Display', serif !important;
     color: #890620 !important;
     font-weight: 700;
     line-height: 1.2;
@@ -27,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar.navbar-expand-lg.navbar-dark.bg-navy .navbar-nav .nav-link {
-    color: #ebd4cb !important; /* Changed to light beige for better contrast */
+    color: #ebd4cb !important;
     font-family: 'Lato', sans-serif !important;
     font-weight: 400;
     text-transform: uppercase;
@@ -53,69 +55,90 @@ footer {
 }
 
 .center {
-  text-align: center !important;
-  margin-top: 5%;
+    text-align: center !important;
+    margin-top: 5%;
 }
 
 .bold {
-  font-weight: bold !important;
+    font-weight: bold !important;
 }
 
 .custom-sm {
-  padding-left: 0;
-  padding-right: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 #full-screen-picture {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1; /* Ensure the picture is behind other content */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }
 
 .left {
-  text-align: left !important;
-  margin-top: 5%;
+    text-align: left !important;
+    margin-top: 5%;
 }
 
-/* Ensure proper spacing and alignment */
 .my-5 {
-  margin-top: 3rem !important;
-  margin-bottom: 3rem !important;
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
 }
 
 .py-3 {
-  padding-top: 1rem !important;
-  padding-bottom: 1rem !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
 }
 
-/* Test style for navbar visibility */
 .navbar {
-  border-bottom: 5px solid #b6465f !important;
+    border-bottom: 4px solid #b6465f !important;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
 }
 
 .container-sm {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  width: 100%;
-  max-width: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100%;
+    max-width: 100%;
 }
 
 #accordion-style {
-  color: #000000 !important;
-  background-color: #da9f93 !important;
-  box-shadow: 2px 2px 2px #890620;
+    color: #000000 !important;
+    background-color: #da9f93 !important;
+    box-shadow: 2px 2px 2px #890620;
 }
 
 .bg-navy {
-  background-color: #890620 !important;
+    background-color: #890620 !important;
+}
+
+/* New styles for fixed footer and content wrapper */
+.footer {
+    position: fixed !important;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: #890620;
+    color: #ebd4cb;
+    z-index: 1000;
+}
+
+.content-wrapper {
+    flex: 1;
+    overflow-y: auto;
+    padding-bottom: 60px; /* Match the height of the footer */
 }
 
 /* Ensure content doesn't touch the edges on smaller screens */
 @media (max-width: 768px) {
-  body {
-      padding: 0 15px;
-  }
+    body {
+        padding: 56px 15px 60px; /* Adjust padding to account for fixed navbar and footer */
+    }
 }
