@@ -1,62 +1,54 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap');
+
 body {
-  background-color: #ebd4cb !important;
-  color: #000000 !important;
-  padding: 0;
-  margin: 0;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+    background-color: #ebd4cb !important;
+    color: #000000 !important;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif; /* Futura alternative */
+    font-weight: 400;
+    line-height: 1.6;
 }
 
-.container-sm {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  width: 100%;
-  max-width: 100%;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif; /* Didot alternative */
+    color: #890620 !important;
+    font-weight: 700;
+    line-height: 1.2;
 }
 
-#accordion-style {
-  color: #000000 !important;
-  background-color: #da9f93 !important;
-  box-shadow: 2px 2px 2px #890620;
-}
-
-.bg-navy {
-  background-color: #890620 !important; /* Deep red instead of navy */
-}
-
-/* Navbar specific styles */
-.navbar.navbar-expand-lg.navbar-dark.bg-navy {
-  background-color: #890620 !important;
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
 }
 
 .navbar.navbar-expand-lg.navbar-dark.bg-navy .navbar-nav .nav-link {
-  color: #890620 !important; /* Set navbar text color to light beige */
-}
-
-.accordion .card {
-  background-color: #890620 !important; /* Set accordion background color to deep red */
-  border: 2px;
-  border-radius: 2px;
+    color: #ebd4cb !important; /* Changed to light beige for better contrast */
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .accordion .card-header {
-  background-color: #da9f93 !important; /* Set accordion header background color to light pink */
-  color: #890620 !important; /* Set accordion header text color to black */
-  border-bottom: 2px solid #890620;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
 }
 
-.accordion .card-body {
-  background-color: #890620 !important; /* Set accordion body background color to deep red */
-  color: #ebd4cb !important; /* Set accordion body text color to light beige */
+.btn-link {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 footer {
-  background-color: #890620 !important;
-  color: #ebd4cb !important;
-  width: 100%;
-  padding: 20px 0;
-  margin-top: auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
 }
 
 .center {
@@ -110,6 +102,23 @@ h1, h2, h3, h4, h5, h6 {
 /* Test style for navbar visibility */
 .navbar {
   border-bottom: 5px solid #b6465f !important;
+}
+
+.container-sm {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  width: 100%;
+  max-width: 100%;
+}
+
+#accordion-style {
+  color: #000000 !important;
+  background-color: #da9f93 !important;
+  box-shadow: 2px 2px 2px #890620;
+}
+
+.bg-navy {
+  background-color: #890620 !important;
 }
 
 /* Ensure content doesn't touch the edges on smaller screens */

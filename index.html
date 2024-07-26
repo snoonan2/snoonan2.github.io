@@ -84,6 +84,7 @@
          <source srcset="images/navy.png" type="image/svg+xml">
          <img src="images/navy.png" style="width: 100%; height: auto; max-width: 1100px; height: 10px;" class="mx-auto d-block" alt="Responsive image">
       </picture>
+
       <div class='py-3 my-5'></div>
 
       
@@ -205,10 +206,10 @@
          <div></div>
          <div></div>
          <div class="experience-section">
-             <h3 style="color: #b6465f;">University of Minnesota | CSE NLP Research</h3>
+             <h3 style="color: #b6465f;">University of Minnesota Research</h3>
              <div class="row">
                  <div class="col-md-9">
-                     <p>UofMN CSE Department Research</p>
+                     <p>fMN CSE Department Research</p>
                  </div>
                  <div class="col-md-3">
                      <img src="images/umn.jpeg" class="img-fluid mx-auto d-block" alt="University of Minnesota Logo">
@@ -232,34 +233,37 @@
          </div>
      </section>
  
-     <footer style="color: #890620;">
-         <div id="contact" class="row">
-             <div class="col-md-12">
-                 <ul class="list-inline">
-                     <li class="list-inline-item mr-3">
-                         <a href="https://github.com/snoonan2" target="_blank">
-                             <img src="images/github.png" alt="GitHub" width="23" height="23">
-                         </a>
-                     </li>
-                     <li class="list-inline-item mr-3">
-                         <a href="https://www.linkedin.com/in/sophia-noonan/" target="_blank">
-                             <img src="images/linkedin.png" alt="LinkedIn" width="23" height="23">
-                         </a>
-                     </li>
-                     <li class="list-inline-item mr-3">
-                         <a href="mailto:mary.db04@gmail.com">
-                             <img src="images/email.png" alt="Email" width="23" height="23">
-                         </a>
-                     </li>
-                     <li class="list-inline-item">
-                         <a href="https://docs.google.com/document/d/1M8n7vsFY3eJZzyUTq8cE5C4kykMgxl9f5hMIkd_hPxg/edit?usp=sharing" target="_blank">
-                             <img src="images/resume.png" alt="Resume" width="23" height="23">
-                         </a>
-                     </li>
-                 </ul>
-             </div>
-         </div>
-     </footer>
+     <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item mr-3">
+                <a href="https://github.com/snoonan2" target="_blank">
+                  <img src="images/github.png" alt="GitHub" width="23" height="23">
+                </a>
+              </li>
+              <li class="list-inline-item mr-3">
+                <a href="https://www.linkedin.com/in/sophia-noonan/" target="_blank">
+                  <img src="images/linkedin.png" alt="LinkedIn" width="23" height="23">
+                </a>
+              </li>
+              <li class="list-inline-item mr-3">
+                <a href="mailto:snoonan2@nd.edu">
+                  <img src="images/email.png" alt="Email" width="50" height="50">
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://docs.google.com/document/d/1M8n7vsFY3eJZzyUTq8cE5C4kykMgxl9f5hMIkd_hPxg/edit?usp=sharing" target="_blank">
+                  <img src="images/resume.png" alt="Resume" width="23" height="23">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
  
      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -268,3 +272,35 @@
      <script src="js/main.js"></script>
  </body>
  </html>
+
+ <style>
+   html, body {
+     height: 100%;
+     margin: 0;
+   }
+   
+   body {
+     display: flex;
+     flex-direction: column;
+   }
+   
+   .footer {
+     background-color: #890620;
+     color: #ebd4cb;
+     padding: 20px 0;
+     margin-top: auto;
+     width: 100%;
+   }
+   
+   .footer ul {
+     margin-bottom: 0;
+   }
+   
+   .footer img {
+     transition: transform 0.3s ease;
+   }
+   
+   .footer img:hover {
+     transform: scale(1.2);
+   }
+   </style>
