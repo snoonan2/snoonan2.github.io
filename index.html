@@ -9,45 +9,68 @@
       <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
       <style>
          body {
-         background-color: #ebd4cb; /* Light beige background */
-         color: #000000; /* Black text color */
+            background-color: #ebd4cb;
+            color: #000000;
+            font-family: 'Lato', sans-serif !important;
+            padding-top: 56px; /* Add padding to account for fixed navbar */
+            padding-bottom: 60px; /* Add padding to account for fixed footer */
          }
          .bg-navy {
-         background-color: #890620; /* Deep red instead of navy */
+            background-color: #890620;
          }
          .navbar-dark .navbar-nav .nav-link {
-         color: #ebd4cb; /* Set navbar text color to light beige */
+            color: #ebd4cb;
          }
          .accordion .card {
-         background-color: #890620; /* Set accordion background color to deep red */
-         border: none;
-         border-radius: 2px;
+            background-color: #890620;
+            border: none;
+            border-radius: 2px;
          }
          .accordion .card-header {
-         background-color: #da9f93; /* Set accordion header background color to light pink */
-         color: #000000; /* Set accordion header text color to black */
-         border-bottom: 2px solid #890620;
+            background-color: #da9f93;
+            color: #000000;
+            border-bottom: 2px solid #890620;
          }
          .accordion .card-body {
-         background-color: #890620; /* Set accordion body background color to deep red */
-         color: #ebd4cb; /* Set accordion body text color to light beige */
+            background-color: #890620;
+            color: #ebd4cb;
          }
          footer {
-         background-color: #890620; /* Deep red background */
-         color: #ebd4cb; /* Set footer text color to light beige */
+            background-color: #890620;
+            color: #ebd4cb;
          }
          .btn-link {
-         color: #890620; /* Set button link color to deep red */
+            color: #890620;
          }
          .btn-link:hover {
-         color: #b6465f; /* Set button link hover color to burgundy */
+            color: #b6465f;
          }
-         body {
-            font-family: 'Lato', sans-serif !important;
-        }
-        h1, h2, h3, h4, h5, h6 {
+         h1, h2, h3, h4, h5, h6 {
             font-family: 'Playfair Display', serif !important;
-        }
+         }
+         /* New styles for fixed navbar and footer */
+         .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+         }
+         .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 60px;
+            line-height: 60px;
+            background-color: #890620;
+            z-index: 1000;
+         }
+         /* Add a wrapper for the main content */
+         .content-wrapper {
+            margin-top: 56px; /* Match the height of the navbar */
+            margin-bottom: 60px; /* Match the height of the footer */
+            overflow-y: auto;
+            height: calc(100vh - 116px); /* Viewport height minus navbar and footer height */
+         }
       </style>
       <link rel="icon" href="images/logo.png" type="image/logo.png">
    </head>
@@ -74,172 +97,175 @@
             </ul>
          </div>
       </nav>
-      <div class="container" id="bsr-wrapper">
-      <div class='my-5'></div>
-      <h1 style="color: #890620;">Sophia Noonan's Digital Portfolio</h1>
-      <h6 style="color: #b6465f;">• Saint Paul, MN •  University of Notre Dame • Class of 2026 • </h6>
-      <picture>
-         <source srcset="images/navy.png" type="image/svg+xml">
-         <img src="images/navy.png" style="width: 100%; height: auto; max-width: 1100px; height: 10px;" class="mx-auto d-block" alt="Responsive image">
-      </picture>
-      <div class='my-5'></div>
-
-      <div class="text-center">
-         <img src="images/city.gif" style="width: 100%; height: auto; max-width: 1000px; max-height: 50%;" class="mx-auto d-block" alt="City GIF">
-      </div>
-
-      <picture>
-         <source srcset="images/navy.png" type="image/svg+xml">
-         <img src="images/navy.png" style="width: 100%; height: auto; max-width: 1100px; height: 10px;" class="mx-auto d-block" alt="Responsive image">
-      </picture>
-
-      <div class='py-3 my-5'></div>
-
       
-      <picture>
-         <source srcset="images/navy.png" type="image/svg+xml">
-         <img src="images/navy.png" style="width: 100%; height: auto; max-width: 1100px; height: 10px;" class="mx-auto d-block" alt="Responsive image">
-      </picture>
-      <div class='py-3 my-5'></div>
-      <section id="about">
-      <h2 style="color: #890620;">About Me!</h2>
-      <div class='my-5'></div>
-      <div class="row">
-         <div class="col-md-9">
-            <p>My name is Sophia Noonan, and I am a junior pursuing a major in Computer Science in College of Engineering with a minor in Chinese at the University of Notre Dame. My academic journey is driven by a profound passion for ethical technology and its positive transformative potential.
-               Beyond my academic pursuits, I am an ardent enthusiast of diverse interests and creative outlets. As an avid follower of fashion history & media, I enjoy analyzing style trends local and internationally.  
-            </p>
+      <div class="content-wrapper">
+         <div class="container" id="bsr-wrapper">
+         <div class='my-5'></div>
+         <h1 style="color: #890620;">Sophia Noonan's Digital Portfolio</h1>
+         <h6 style="color: #b6465f;">• Saint Paul, MN •  University of Notre Dame • Class of 2026 • </h6>
+         <picture>
+            <source srcset="images/navy.png" type="image/svg+xml">
+            <img src="images/navy.png" style="width: 100%; height: auto; max-width: 1100px; height: 10px;" class="mx-auto d-block" alt="Responsive image">
+         </picture>
+         <div class='my-5'></div>
+
+         <div class="text-center">
+            <img src="images/city.gif" style="width: 100%; height: auto; max-width: 1000px; max-height: 50%;" class="mx-auto d-block" alt="City GIF">
          </div>
-         <div class="col-md-3">
-            <img src="images/aboutme.png" style="width: 100%; height: auto; max-width: 100%;" class="mx-auto d-block" alt="Responsive image">
+
+         <picture>
+            <source srcset="images/navy.png" type="image/svg+xml">
+            <img src="images/navy.png" style="width: 100%; height: auto; max-width: 1100px; height: 10px;" class="mx-auto d-block" alt="Responsive image">
+         </picture>
+
+         <div class='py-3 my-5'></div>
+
+         
+         <picture>
+            <source srcset="images/navy.png" type="image/svg+xml">
+            <img src="images/navy.png" style="width: 100%; height: auto; max-width: 1100px; height: 10px;" class="mx-auto d-block" alt="Responsive image">
+         </picture>
+         <div class='py-3 my-5'></div>
+         <section id="about">
+         <h2 style="color: #890620;">About Me!</h2>
+         <div class='my-5'></div>
+         <div class="row">
+            <div class="col-md-9">
+               <p>My name is Sophia Noonan, and I am a junior pursuing a major in Computer Science in College of Engineering with a minor in Chinese at the University of Notre Dame. My academic journey is driven by a profound passion for ethical technology and its positive transformative potential.
+                  Beyond my academic pursuits, I am an ardent enthusiast of diverse interests and creative outlets. As an avid follower of fashion history & media, I enjoy analyzing style trends local and internationally.  
+               </p>
+            </div>
+            <div class="col-md-3">
+               <img src="images/aboutme.png" style="width: 100%; height: auto; max-width: 100%;" class="mx-auto d-block" alt="Responsive image">
+            </div>
          </div>
-      </div>
-      <picture>
-         <source srcset="images/navy.png" type="image/svg+xml">
-         <img src="images/navy.png" style="width: 100%; height: auto; max-width: 1100px; height: 10px;" class="mx-auto d-block" alt="Responsive image">
-      </picture>
+         <picture>
+            <source srcset="images/navy.png" type="image/svg+xml">
+            <img src="images/navy.png" style="width: 100%; height: auto; max-width: 1100px; height: 10px;" class="mx-auto d-block" alt="Responsive image">
+         </picture>
+         </section>
+         <div class='py-3 my-4'></div>
+         <section id="project">
+         <h2 style="color: #890620;">Projects:</h2>
+         <div class="accordion" id="accordion17278479">
+            <div class="card">
+               <div class="card-header" id="header-1">
+                  <h2 class="mb-0"><button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel4565877" aria-expanded="false" aria-controls="header-1">Computer Science for Good</button></h2>
+               </div>
+               <div id="panel4565877" class="collapse" aria-labelledby="headingOne" data-parent="#accordion17278479">
+                  <div class="card-body">Used Marvel App software and student feedback to prototype an application to assist commuting students with school bus tracking and pick up time estimation.  Partnered with the New York Public Transportation System to learn issues that the app could solve including school bus tracking technology for both students and teachers </div>
+                  <picture>
+                     <source srcset="images/csforgoodlogo.PNG" type="image/svg+xml">
+                     <img src="images/csforgoodlogo.PNG" width=300 height=275 class=mx-auto d-block alt="Responsive image">
+                  </picture>
+               </div>
+            </div>
+            <div></div>
+            <div class="card">
+               <div class="card-header" id="header-2">
+                  <h2 class="mb-0"><button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel71798744" aria-expanded="false" aria-controls="header-2">Women in Computer Science </button></h2>
+               </div>
+               <div id="panel71798744" class="collapse" aria-labelledby="headingOne" data-parent="#accordion17278479">
+                  <div class="card-body">Lorem ipsum dolor sit amet.</div>
+                  <a href="https://github.com/marybrus/crossword" target="_blank">
+                     <picture style="text-align: left;">
+                        <source srcset="images/blackboots.png" type="image/svg+xml">
+                        <img src="images/blackboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
+                     </picture>
+                     <picture style="text-align: right;">
+                        <source srcset="images/blackboots.png" type="image/svg+xml">
+                        <img src="images/blackboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
+                     </picture>
+                  </a>
+               </div>
+            </div>
+            <div></div>
+            <div class="card">
+               <div class="card-header" id="header-3">
+                  <h2 class="mb-0"><button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel23077795" aria-expanded="false" aria-controls="header-3">Strike Magazine</button></h2>
+               </div>
+               <div id="panel23077795" class="collapse" aria-labelledby="headingOne" data-parent="#accordion17278479">
+                  <div class="card-body">Lorem ipsum dolor sit amet.</div>
+                  <a href="https://github.com/marybrus/wordle" target="_blank">
+                     <picture style="text-align: left">
+                        <source srcset="images/blackboots.png" type="image/svg+xml">
+                        <img src="images/blackboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
+                     </picture>
+                     <picture style="text-align: right;">
+                        <source srcset="images/strikelogo.png" type="image/svg+xml">
+                        <img src="images/strikelogo.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
+                     </picture>
+                  </a>
+               </div>
+            </div>
+            <div></div>
+            <div class="card">
+               <div class="card-header" id="header-4">
+                  <h2 class="mb-0"><button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel70240096" aria-expanded="false" aria-controls="header-4">This Website</button></h2>
+               </div>
+               <div id="panel70240096" class="collapse" aria-labelledby="headingOne" data-parent="#accordion17278479">
+                  <div class="card-body">Designed & created with HTML/CSS.</div>
+                  <a href="https://github.com/marybrus/marybrusco" target="_blank">
+                     <picture style="max-width: 100%;">
+                        <source srcset="images/blackboots.png" type="image/svg+xml">
+                        <img src="images/blackboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
+                     </picture>
+                  </a>
+               </div>
+            </div>
+         </div>
+         <picture>
+            <source srcset="images/navy.png" type="image/svg+xml">
+            <img src="images/navy.png" style="width: 100%; height: auto; max-width: 1100px; height: 10px;" class="mx-auto d-block" alt="Responsive image">
+         </picture>
+         </section>
+         <div class='py-3 my-4'></div>
+         <section id="experience">
+            <h2 style="color: #890620;">Experience:</h2>
+            <div></div>
+            <div class="experience-section">
+               <h3 style="color: #b6465f;">Commscope</h3>
+               <div class="row">
+                  <div class="col-md-6">
+                        <a href="https://commscopeorg/" target="_blank">
+                           <img src="images/commscopelogo.png" class="img-fluid mx-auto d-block" alt="Commscope Logo">
+                        </a>
+                  </div>
+                  <div class="col-md-6">
+                        <p>Collaborated with professional engineers to create labs for prospective engineering students covering cybersecurity, networks, and machine learning. Led teaching of these labs to low-income high schools, specializing in machine learning and app development. Mentored engineering students, providing guidance in academic pathways and supporting personal and professional development. Contributed to the creation of a Scientific Computing Course in Python for high school students.</p>
+                  </div>
+               </div>
+            </div>
+            <div></div>
+            <div></div>
+            <div class="experience-section">
+               <h3 style="color: #b6465f;">University of Minnesota Research</h3>
+               <div class="row">
+                  <div class="col-md-9">
+                        <p>fMN CSE Department Research</p>
+                  </div>
+                  <div class="col-md-3">
+                        <img src="images/umn.jpeg" class="img-fluid mx-auto d-block" alt="University of Minnesota Logo">
+                  </div>
+               </div>
+            </div>
+            <div></div>
+            <div></div>
+            <div class="experience-section">
+               <h3 style="color: #b6465f;">Bubble Campus Ambassador</h3>
+               <div class="row">
+                  <div class="col-md-6">
+                        <a href="https://bubble.org/" target="_blank">
+                           <img src="images/bubblelogo.png" class="img-fluid mx-auto d-block" alt="Bubble Logo">
+                        </a>
+                  </div>
+                  <div class="col-md-6">
+                        <p>As a Bubble Campus Ambassador, I spearheaded the development of hands-on labs for prospective engineering students, facilitated lab sessions for low-income high schools, mentored groups of 30-40 students, and contributed to the creation of a Scientific Computing Course in Python.</p>
+                  </div>
+               </div>
+            </div>
+         </div>   
       </section>
-      <div class='py-3 my-4'></div>
-      <section id="project">
-      <h2 style="color: #890620;">Projects:</h2>
-      <div class="accordion" id="accordion17278479">
-         <div class="card">
-            <div class="card-header" id="header-1">
-               <h2 class="mb-0"><button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel4565877" aria-expanded="false" aria-controls="header-1">Computer Science for Good</button></h2>
-            </div>
-            <div id="panel4565877" class="collapse" aria-labelledby="headingOne" data-parent="#accordion17278479">
-               <div class="card-body">Used Marvel App software and student feedback to prototype an application to assist commuting students with school bus tracking and pick up time estimation.  Partnered with the New York Public Transportation System to learn issues that the app could solve including school bus tracking technology for both students and teachers </div>
-               <picture>
-                  <source srcset="images/csforgoodlogo.PNG" type="image/svg+xml">
-                  <img src="images/csforgoodlogo.PNG" width=300 height=275 class=mx-auto d-block alt="Responsive image">
-               </picture>
-            </div>
-         </div>
-         <div></div>
-         <div class="card">
-            <div class="card-header" id="header-2">
-               <h2 class="mb-0"><button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel71798744" aria-expanded="false" aria-controls="header-2">Women in Computer Science </button></h2>
-            </div>
-            <div id="panel71798744" class="collapse" aria-labelledby="headingOne" data-parent="#accordion17278479">
-               <div class="card-body">Lorem ipsum dolor sit amet.</div>
-               <a href="https://github.com/marybrus/crossword" target="_blank">
-                  <picture style="text-align: left;">
-                     <source srcset="images/blackboots.png" type="image/svg+xml">
-                     <img src="images/blackboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
-                  </picture>
-                  <picture style="text-align: right;">
-                     <source srcset="images/blackboots.png" type="image/svg+xml">
-                     <img src="images/blackboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
-                  </picture>
-               </a>
-            </div>
-         </div>
-         <div></div>
-         <div class="card">
-            <div class="card-header" id="header-3">
-               <h2 class="mb-0"><button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel23077795" aria-expanded="false" aria-controls="header-3">Strike Magazine</button></h2>
-            </div>
-            <div id="panel23077795" class="collapse" aria-labelledby="headingOne" data-parent="#accordion17278479">
-               <div class="card-body">Lorem ipsum dolor sit amet.</div>
-               <a href="https://github.com/marybrus/wordle" target="_blank">
-                  <picture style="text-align: left">
-                     <source srcset="images/blackboots.png" type="image/svg+xml">
-                     <img src="images/blackboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
-                  </picture>
-                  <picture style="text-align: right;">
-                     <source srcset="images/strikelogo.png" type="image/svg+xml">
-                     <img src="images/strikelogo.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
-                  </picture>
-               </a>
-            </div>
-         </div>
-         <div></div>
-         <div class="card">
-            <div class="card-header" id="header-4">
-               <h2 class="mb-0"><button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel70240096" aria-expanded="false" aria-controls="header-4">This Website</button></h2>
-            </div>
-            <div id="panel70240096" class="collapse" aria-labelledby="headingOne" data-parent="#accordion17278479">
-               <div class="card-body">Designed & created with HTML/CSS.</div>
-               <a href="https://github.com/marybrus/marybrusco" target="_blank">
-                  <picture style="max-width: 100%;">
-                     <source srcset="images/blackboots.png" type="image/svg+xml">
-                     <img src="images/blackboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
-                  </picture>
-               </a>
-            </div>
-         </div>
-      </div>
-      <picture>
-         <source srcset="images/navy.png" type="image/svg+xml">
-         <img src="images/navy.png" style="width: 100%; height: auto; max-width: 1100px; height: 10px;" class="mx-auto d-block" alt="Responsive image">
-      </picture>
-      </section>
-      <div class='py-3 my-4'></div>
-      <section id="experience">
-         <h2 style="color: #890620;">Experience:</h2>
-         <div></div>
-         <div class="experience-section">
-             <h3 style="color: #b6465f;">Commscope</h3>
-             <div class="row">
-                 <div class="col-md-6">
-                     <a href="https://commscopeorg/" target="_blank">
-                         <img src="images/commscopelogo.png" class="img-fluid mx-auto d-block" alt="Commscope Logo">
-                     </a>
-                 </div>
-                 <div class="col-md-6">
-                     <p>Collaborated with professional engineers to create labs for prospective engineering students covering cybersecurity, networks, and machine learning. Led teaching of these labs to low-income high schools, specializing in machine learning and app development. Mentored engineering students, providing guidance in academic pathways and supporting personal and professional development. Contributed to the creation of a Scientific Computing Course in Python for high school students.</p>
-                 </div>
-             </div>
-         </div>
-         <div></div>
-         <div></div>
-         <div class="experience-section">
-             <h3 style="color: #b6465f;">University of Minnesota Research</h3>
-             <div class="row">
-                 <div class="col-md-9">
-                     <p>fMN CSE Department Research</p>
-                 </div>
-                 <div class="col-md-3">
-                     <img src="images/umn.jpeg" class="img-fluid mx-auto d-block" alt="University of Minnesota Logo">
-                 </div>
-             </div>
-         </div>
-         <div></div>
-         <div></div>
-         <div class="experience-section">
-             <h3 style="color: #b6465f;">Bubble Campus Ambassador</h3>
-             <div class="row">
-                 <div class="col-md-6">
-                     <a href="https://bubble.org/" target="_blank">
-                         <img src="images/bubblelogo.png" class="img-fluid mx-auto d-block" alt="Bubble Logo">
-                     </a>
-                 </div>
-                 <div class="col-md-6">
-                     <p>As a Bubble Campus Ambassador, I spearheaded the development of hands-on labs for prospective engineering students, facilitated lab sessions for low-income high schools, mentored groups of 30-40 students, and contributed to the creation of a Scientific Computing Course in Python.</p>
-                 </div>
-             </div>
-         </div>
-     </section>
  
      <footer class="footer">
       <div class="container">
