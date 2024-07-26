@@ -1,12 +1,18 @@
 body {
-  background-color: #ebd4cb !important; /* Light beige background */
-  color: #000000 !important; /* Black text color */
-  padding: 0 24px;
+  background-color: #ebd4cb !important;
+  color: #000000 !important;
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .container-sm {
   padding-left: 0 !important;
   padding-right: 0 !important;
+  width: 100%;
+  max-width: 100%;
 }
 
 #accordion-style {
@@ -46,8 +52,11 @@ body {
 }
 
 footer {
-  background-color: #890620 !important; /* Deep red background */
-  color: #ebd4cb !important; /* Set footer text color to light beige */
+  background-color: #890620 !important;
+  color: #ebd4cb !important;
+  width: 100%;
+  padding: 20px 0;
+  margin-top: auto;
 }
 
 .center {
@@ -101,4 +110,11 @@ h1, h2, h3, h4, h5, h6 {
 /* Test style for navbar visibility */
 .navbar {
   border-bottom: 5px solid #b6465f !important;
+}
+
+/* Ensure content doesn't touch the edges on smaller screens */
+@media (max-width: 768px) {
+  body {
+      padding: 0 15px;
+  }
 }
