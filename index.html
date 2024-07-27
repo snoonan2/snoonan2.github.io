@@ -109,6 +109,19 @@
             margin-top: 10px;
             margin-bottom: 10px;
          }
+         .image-container {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding: 10px;
+         }
+         .card-image {
+            width: 48%; /* Adjust as needed */
+            height: auto;
+            max-width: 175px;
+            max-height: 150px;
+            object-fit: contain;
+         }
       </style>
       <link rel="icon" href="images/logo.png" type="image/logo.png">
    </head>
@@ -157,18 +170,6 @@
             <source srcset="images/navy.png" type="image/svg+xml">
             <img src="images/navy.png" style="width: 100%; height: auto; max-width: 1100px; height: 10px;" class="mx-auto d-block" alt="Responsive image">
          </picture>
-
-         <picture>
-            <source srcset="images/boots.gif" type="image/svg+xml">
-            <img src="images/boots.gif" style="width: 100%; height: auto; max-width: 600px; height: 200px;" class="mx-auto d-block" alt="Responsive image">
-         </picture>
-         
-
-         
-         <picture>
-            <source srcset="images/navy.png" type="image/svg+xml">
-            <img src="images/navy.png" style="width: 100%; height: auto; max-width: 1100px; height: 10px;" class="mx-auto d-block" alt="Responsive image">
-         </picture>
          
          <div class='py-3 my-3'></div>
          <section id="about">
@@ -189,6 +190,16 @@
             <source srcset="images/navy.png" type="image/svg+xml">
             <img src="images/navy.png" style="width: 100%; height: auto; max-width: 1100px; height: 10px;" class="mx-auto d-block" alt="Responsive image">
          </picture>
+
+         <picture>
+            <source srcset="images/boots.gif" type="image/svg+xml">
+            <img src="images/boots.gif" style="width: 100%; height: auto; max-width: 600px; height: 200px;" class="mx-auto d-block" alt="Responsive image">
+         </picture>
+
+         <picture>
+            <source srcset="images/navy.png" type="image/svg+xml">
+            <img src="images/navy.png" style="width: 100%; height: auto; max-width: 1100px; height: 10px;" class="mx-auto d-block" alt="Responsive image">
+         </picture>
          
          </section>
          <div class='py-3 my-4'></div>
@@ -196,90 +207,122 @@
          <h2 style="color: #890620;">Projects:</h2>
          <div class="accordion" id="accordion17278479">
             <div class="card">
-               <div class="card-header" id="header-1">
-                  <h2 class="mb-0"><button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel4565877" aria-expanded="false" aria-controls="header-1">Computer Science for Good</button></h2>
-               </div>
-               <div id="panel4565877" class="collapse" aria-labelledby="headingOne" data-parent="#accordion17278479">
-                  <div class="card-body">Used Marvel App software and student feedback to prototype an application to assist commuting students with school bus tracking and pick up time estimation.  Partnered with the New York Public Transportation System to learn issues that the app could solve including school bus tracking technology for both students and teachers </div>
-                  <picture>
-                     <source srcset="images/csforgoodlogo.PNG" type="image/svg+xml">
-                     <img src="images/csforgoodlogo.PNG" width=300 height=275 class=mx-auto d-block alt="Responsive image">
-                  </picture>
-               </div>
-            </div>
-            <div></div>
-            <div class="card">
-               <div class="card-header" id="header-2">
-                  <h2 class="mb-0"><button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel71798744" aria-expanded="false" aria-controls="header-2">Women in Computer Science </button></h2>
-               </div>
-               <div id="panel71798744" class="collapse" aria-labelledby="headingOne" data-parent="#accordion17278479">
-                  <div class="card-body">Lorem ipsum dolor sit amet.</div>
-                  <a href="https://github.com/marybrus/crossword" target="_blank">
-                     <picture style="text-align: left;">
-                        <source srcset="images/wicslogo.png" type="image/svg+xml">
-                        <img src="images/wicslogo.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
-                     </picture>
-                     <picture style="text-align: right;">
-                        <source srcset="images/wicsmerch.png" type="image/svg+xml">
-                        <img src="images/wicsmerch.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
-                     </picture>
-                  </a>
-               </div>
-            </div>
-            <div></div>
-            <div class="card">
-               <div class="card-header" id="header-3">
-                  <h2 class="mb-0"><button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel23077795" aria-expanded="false" aria-controls="header-3">Strike Magazine</button></h2>
-               </div>
-               <div id="panel23077795" class="collapse" aria-labelledby="headingOne" data-parent="#accordion17278479">
-                  <div class="card-body">Lorem ipsum dolor sit amet.</div>
-                  <a href="https://github.com/marybrus/wordle" target="_blank">
-                     <picture style="text-align: left">
-                        <source srcset="images/strikelogo.png" type="image/svg+xml">
-                        <img src="images/strikelogo.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
-                     </picture>
-                     <picture style="text-align: right;">
-                        <source srcset="images/mag.jpg" type="image/svg+xml">
-                        <img src="images/mag.jpg" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
-                     </picture>
-                  </a>
-               </div>
+                <div class="card-header" id="header-1">
+                    <h2 class="mb-0"><button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel4565877" aria-expanded="false" aria-controls="header-1">Computer Science for Good</button></h2>
+                </div>
+                <div id="panel4565877" class="collapse" aria-labelledby="headingOne" data-parent="#accordion17278479">
+                    <div class="card-body">Used Marvel App software and student feedback to prototype an application to assist commuting students with school bus tracking and pick up time estimation. Partnered with the New York Public Transportation System to learn issues that the app could solve including school bus tracking technology for both students and teachers</div>
+                    <div class="image-container">
+                        <picture>
+                            <source srcset="images/csforgoodlogo.png" type="image/svg+xml">
+                            <img src="images/csforgoodlogo.png" class="card-image" alt="CS for Good Logo">
+                        </picture>
+                        <a href="https://github.com/marybrus/marybrusco" target="_blank">
+                            <picture>
+                                <source srcset="images/blackboots.png" type="image/svg+xml">
+                                <img src="images/blackboots.png" class="card-image" alt="Black Boots">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
             </div>
             <div class="card">
-               <div class="card-header" id="header-4">
-                  <h2 class="mb-0"><button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel70240096" aria-expanded="false" aria-controls="header-4">Society of Women in Engineering</button></h2>
-               </div>
-               <div id="panel70240096" class="collapse" aria-labelledby="headingOne" data-parent="#accordion17278479">
-                  <div class="card-body">Another club...</div>
-                  <a href="https://github.com/marybrus/marybrusco" target="_blank">
-                     <picture style="max-width: 100%;">
-                        <source srcset="images/swelogo.png" type="image/svg+xml">
-                        <img src="images/swelogo.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
-                     </picture>
-                  </a>
-               </div>
+                <div class="card-header" id="header-2">
+                    <h2 class="mb-0"><button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel71798744" aria-expanded="false" aria-controls="header-2">Women in Computer Science </button></h2>
+                </div>
+                <div id="panel71798744" class="collapse" aria-labelledby="headingOne" data-parent="#accordion17278479">
+                    <div class="card-body">Lorem ipsum dolor sit amet.</div>
+                    <div class="image-container">
+                        <a href="https://github.com/marybrus/crossword" target="_blank">
+                            <picture>
+                                <source srcset="images/wicslogo.png" type="image/svg+xml">
+                                <img src="images/wicslogo.png" class="card-image" alt="WICS Logo">
+                            </picture>
+                        </a>
+                        <a href="https://github.com/marybrus/crossword" target="_blank">
+                            <picture>
+                                <source srcset="images/wicsmerch.png" type="image/svg+xml">
+                                <img src="images/wicsmerch.png" class="card-image" alt="WICS Merch">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
             </div>
             <div class="card">
-               <div class="card-header" id="header-4">
-                  <h2 class="mb-0"><button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel70240096" aria-expanded="false" aria-controls="header-4">This Website</button></h2>
-               </div>
-               <div id="panel70240096" class="collapse" aria-labelledby="headingOne" data-parent="#accordion17278479">
-                  <div class="card-body">Designed & created with HTML/CSS.</div>
-                  <a href="https://github.com/marybrus/marybrusco" target="_blank">
-                     <picture style="max-width: 100%;">
-                        <source srcset="images/blackboots.png" type="image/svg+xml">
-                        <img src="images/blackboots.png" style="width: 100%; height: auto; max-width: 175px; max-height: 150px;" class="mx-auto d-block" alt="Responsive image">
-                     </picture>
-                  </a>
-               </div>
+                <div class="card-header" id="header-3">
+                    <h2 class="mb-0"><button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel23077795" aria-expanded="false" aria-controls="header-3">Strike Magazine</button></h2>
+                </div>
+                <div id="panel23077795" class="collapse" aria-labelledby="headingOne" data-parent="#accordion17278479">
+                    <div class="card-body">Lorem ipsum dolor sit amet.</div>
+                    <div class="image-container">
+                        <a href="https://github.com/marybrus/marybrusco" target="_blank">
+                            <picture>
+                                <source srcset="images/blackboots.png" type="image/svg+xml">
+                                <img src="images/blackboots.png" class="card-image" alt="Black Boots">
+                            </picture>
+                        </a>
+                        <a href="https://github.com/marybrus/marybrusco" target="_blank">
+                            <picture>
+                                <source srcset="images/mag.jpg" type="image/svg+xml">
+                                <img src="images/mag.jpg" class="card-image" alt="Magazine">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
             </div>
-
-         </div>
+            <div class="card">
+                <div class="card-header" id="header-swe">
+                    <h2 class="mb-0"><button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel-swe" aria-expanded="false" aria-controls="header-swe">Society of Women in Engineering</button></h2>
+                </div>
+                <div id="panel-swe" class="collapse" aria-labelledby="headingOne" data-parent="#accordion17278479">
+                    <div class="card-body">Another club...</div>
+                    <div class="image-container">
+                        <a href="https://github.com/marybrus/marybrusco" target="_blank">
+                            <picture>
+                                <source srcset="images/swelogo.png" type="image/svg+xml">
+                                <img src="images/swelogo.png" class="card-image" alt="SWE Logo">
+                            </picture>
+                        </a>
+                        <a href="https://github.com/marybrus/marybrusco" target="_blank">
+                            <picture>
+                                <source srcset="images/blackboots.png" type="image/svg+xml">
+                                <img src="images/blackboots.png" class="card-image" alt="Black Boots">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="header-website">
+                    <h2 class="mb-0"><button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#panel-website" aria-expanded="false" aria-controls="header-website">This Website</button></h2>
+                </div>
+                <div id="panel-website" class="collapse" aria-labelledby="headingOne" data-parent="#accordion17278479">
+                    <div class="card-body">Designed & created with HTML/CSS.</div>
+                    <div class="image-container">
+                        <a href="https://github.com/marybrus/marybrusco" target="_blank">
+                            <picture>
+                                <source srcset="images/blackboots.png" type="image/svg+xml">
+                                <img src="images/blackboots.png" class="card-image" alt="Black Boots">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
          
          <picture>
             <source srcset="images/navy.png" type="image/svg+xml">
             <img src="images/navy.png" style="width: 100%; height: auto; max-width: 1100px; height: 10px;" class="mx-auto d-block" alt="Responsive image">
-         
+         </picture>
+
+         <picture>
+            <source srcset="images/boots.gif" type="image/svg+xml">
+            <img src="images/boots.gif" style="width: 100%; height: auto; max-width: 600px; height: 200px;" class="mx-auto d-block" alt="Responsive image">
+         </picture>
+
+         <picture>
+            <source srcset="images/navy.png" type="image/svg+xml">
+            <img src="images/navy.png" style="width: 100%; height: auto; max-width: 1100px; height: 10px;" class="mx-auto d-block" alt="Responsive image">
          </picture>
          
       </section>
@@ -329,6 +372,23 @@
             </div>
          </div>   
       </section>
+
+      <picture>
+         <source srcset="images/navy.png" type="image/svg+xml">
+         <img src="images/navy.png" style="width: 100%; height: auto; max-width: 1100px; height: 10px;" class="mx-auto d-block" alt="Responsive image">
+      </picture>
+
+      <picture>
+         <source srcset="images/boots.gif" type="image/svg+xml">
+         <img src="images/boots.gif" style="width: 100%; height: auto; max-width: 600px; height: 200px;" class="mx-auto d-block" alt="Responsive image">
+      </picture>
+
+      <picture>
+         <source srcset="images/navy.png" type="image/svg+xml">
+         <img src="images/navy.png" style="width: 100%; height: auto; max-width: 1100px; height: 10px;" class="mx-auto d-block" alt="Responsive image">
+      </picture>
+
+
  
      <footer class="footer">
       <div class="container">
@@ -347,7 +407,7 @@
               </li>
               <li class="list-inline-item mr-3">
                 <a href="mailto:snoonan2@nd.edu">
-                  <img src="images/email.png" alt="Email" width="33" height="23">
+                  <img src="images/email.png" alt="Email" width="38" height="23">
                 </a>
               </li>
               <li class="list-inline-item">
