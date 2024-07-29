@@ -112,16 +112,23 @@
          }
          .image-container {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
             padding: 10px;
+            flex-wrap: wrap;
          }
+
          .card-image {
-            width: 30%; /* Adjust as needed */
+            width: auto;
             height: auto;
-            max-width: 500px;
-            max-height: 500px;
+            max-width: 175px;
+            max-height: 150px;
             object-fit: contain;
+            margin: 0 25px;
+         }
+
+         .image-container.single-image .card-image {
+            margin: 0;
          }
       </style>
       <link rel="icon" href="images/logo.png" type="image/logo.png">
@@ -429,5 +436,15 @@
      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
      <script src="js/main.js"></script>
+     <script>
+      document.addEventListener('DOMContentLoaded', function() {
+          var containers = document.querySelectorAll('.image-container');
+          containers.forEach(function(container) {
+              if (container.querySelectorAll('picture').length === 1) {
+                  container.classList.add('single-image');
+              }
+          });
+      });
+      </script>
  </body>
  </html>
