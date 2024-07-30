@@ -100,7 +100,7 @@
          }
          section {
             padding-top: 10px;
-            padding-bottom: 10px;
+            padding-bottom: 5px;
          }
          .experience-section {
             margin-top: 20px;
@@ -197,23 +197,12 @@
             </div>
          </div>
          
-         <picture>
-            <source srcset="images/navy.png" type="image/svg+xml">
-            <img src="images/navy.png" style="width: 100%; height: auto; max-width: 1100px; height: 10px;" class="mx-auto d-block" alt="Responsive image">
-         </picture>
-
-         <picture>
-            <source srcset="images/boots.gif" type="image/svg+xml">
-            <img src="images/boots.gif" style="width: 100%; height: auto; max-width: 600px; height: 200px;" class="mx-auto d-block" alt="Responsive image">
-         </picture>
-
-         <picture>
-            <source srcset="images/navy.png" type="image/svg+xml">
-            <img src="images/navy.png" style="width: 100%; height: auto; max-width: 1100px; height: 10px;" class="mx-auto d-block" alt="Responsive image">
-         </picture>
+         <img src="images/navy.png" class="navy-bar mx-auto d-block my-1" alt="Responsive image">
+         <img src="images/boots.gif" class="mx-auto d-block my-1" alt="Responsive image">
+         <img src="images/navy.png" class="navy-bar mx-auto d-block my-1" alt="Responsive image">
          
          </section>
-         <div class='py-3 my-4'></div>
+         <div class='py-3 my-2'></div>
          <section id="project">
          <h2 style="color: #890620;">Projects:</h2>
          <div class="accordion" id="accordion17278479">
@@ -444,6 +433,29 @@
                   container.classList.add('single-image');
               }
           });
+      });
+      </script>
+      <script>
+         document.addEventListener('DOMContentLoaded', function() {
+         var navbarHeight = document.querySelector('.navbar').offsetHeight;
+         var additionalOffset = 20; // Adjust this value as needed
+
+         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                  e.preventDefault();
+
+                  var target = document.querySelector(this.getAttribute('href'));
+                  if (target) {
+                     var elementPosition = target.getBoundingClientRect().top;
+                     var offsetPosition = elementPosition + window.pageYOffset - navbarHeight - additionalOffset;
+
+                     window.scrollTo({
+                        top: offsetPosition,
+                        behavior: "smooth"
+                     });
+                  }
+            });
+         });
       });
       </script>
  </body>
