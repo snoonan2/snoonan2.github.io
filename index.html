@@ -8,12 +8,16 @@
       <title>sophia c noonan</title>
       <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
       <style>
+         :root {
+            --scale-factor: 1.1; /* Adjust this value to increase or decrease overall font size */
+         }
          body {
             background-color: #ebd4cb;
             color: #000000;
             font-family: 'Lato', sans-serif !important;
             padding-top: 10px; /* Add padding to account for fixed navbar */
             padding-bottom: 10px; /* Add padding to account for fixed footer */
+            font-size: calc(16px * var(--scale-factor));
          }
          .bg-navy {
             background-color: #890620;
@@ -65,14 +69,29 @@
          h1 {
             margin-top: 10px;
             margin-bottom: 10px; /* Add this line to reduce top margin */
+            font-size: calc(2.5rem * var(--scale-factor));
          }
          h2 {
             margin-top: 5px;
             margin-bottom: 5px;
+            font-size: calc(2rem * var(--scale-factor));
          }
          h3 {
             margin-top: 10px; /* Add this line to reduce top margin */
             margin-bottom: 10px;
+            font-size: calc(1.75rem * var(--scale-factor));
+         }
+         h4 { font-size: calc(1.5rem * var(--scale-factor)); }
+         h5 { font-size: calc(1.25rem * var(--scale-factor)); }
+         h6 { font-size: calc(1rem * var(--scale-factor)); }
+         .my-5 {
+            margin-top: calc(3rem * var(--scale-factor)) !important;
+            margin-bottom: calc(3rem * var(--scale-factor)) !important;
+         }
+
+         .py-3 {
+            padding-top: calc(1rem * var(--scale-factor)) !important;
+            padding-bottom: calc(1rem * var(--scale-factor)) !important;
          }
          /* New styles for fixed navbar and footer */
          .navbar {
@@ -193,7 +212,7 @@
                </p>
             </div>
             <div class="col-md-4">
-               <img src="images/aboutme.png" style="width: 100%; height: auto; max-width: 115%;" class="mx-auto d-block" alt="Responsive image">
+               <img src="images/aboutme.png" style="width: 100%; height: auto; max-width: 115%; margin-top: -30px;" class="mx-auto d-block" alt="Responsive image">
             </div>
          </div>
          
@@ -340,7 +359,7 @@
                   <div class="col-md-9" color="#000000">
                         <p>fMN CSE Department Research</p>
                   </div>
-                  <div class="col-md-5">
+                  <div class="col-md-4">
                         <img src="images/umn.jpeg" class="img-fluid mx-auto d-block" alt="University of Minnesota Logo">
                   </div>
                </div>
@@ -352,10 +371,10 @@
                <div class="row">
                   <div class="col-md-3">
                         <a href="https://bubble.org/" target="_blank">
-                           <img src="images/bubblelogo.png" class="img-fluid mx-auto d-block" alt="Bubble Logo" style="margin-top: 10x" width="700px" height="auto">
+                           <img src="images/bubblelogo.png" class="img-fluid mx-auto d-block" alt="Bubble Logo" style="margin-top: 10x" width="900px" height="auto">
                         </a>
                   </div>
-                  <div class="col-md-5" color="#000000">
+                  <div class="col-md-6" color="#000000">
                         <p>As a Bubble Campus Ambassador, I spearheaded the development of hands-on labs for prospective engineering students, facilitated lab sessions for low-income high schools, mentored groups of 30-40 students, and contributed to the creation of a Scientific Computing Course in Python.</p>
                   </div>
                </div>
