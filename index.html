@@ -149,13 +149,34 @@
          .image-container.single-image .card-image {
             margin: 0;
          }
+         body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+         }
+
+         .content-wrapper {
+            flex: 1 0 auto;
+            margin-top: 56px; /* Match the height of the navbar */
+            margin-bottom: 40px; /* Match the height of the footer */
+            overflow-y: auto;
+            padding-top: 5px;
+            padding-bottom: 10px;
+         }
+
+         .footer {
+            flex-shrink: 0;
+            height: 40px;
+            line-height: 40px;
+            background-color: #890620;
+         }
       </style>
       <link rel="icon" href="images/logo.png" type="image/logo.png">
    </head>
    
    <body>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-navy">
-         <a class="navbar-brand" href="#top" id="logo-link">
+      <nav href="#top" class="navbar navbar-expand-lg navbar-dark bg-navy">
+         <a class="navbar-brand" id="logo-link">
             <img src="images/logo.png" width="50" height="50" class="d-inline-block align-top" alt="logo">
          </a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -355,7 +376,7 @@
             <div class="row">
                <div class="col-md-6">
                   <a href="https://hellobubble.com" target="_blank">
-                     <img src="images/bubblelogo.png" class="img-fluid mx-auto d-block" alt="Bubble Logo" style="margin-top: 10px" width="400" height="300">
+                     <img src="images/bubblelogo.png" class="img-fluid mx-auto d-block" alt="Bubble Logo" style="margin-top: 10px" width="300px" height="200px">
                   </a>
                </div>
                <div class="col-md-6" color="#000000">
@@ -407,14 +428,14 @@
                </div>
 
                <div class="card">
-                  <div class="card-header" id="headingCourse2">
+                  <div class="card-header" id="headingCourse3">
                      <h2 class="mb-0">
                         <button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#collapseCourse2" aria-expanded="false" aria-controls="collapseCourse2">
                            Introduction to Artificial Intelligence
                         </button>
                      </h2>
                   </div>
-                  <div id="collapseCourse2" class="collapse" aria-labelledby="headingCourse2" data-parent="#accordionCourses">
+                  <div id="collapseCourse3" class="collapse" aria-labelledby="headingCourse2" data-parent="#accordionCourses">
                      <div class="card-body">
                         Description of Course 3
                      </div>
@@ -422,14 +443,14 @@
                </div>
 
                <div class="card">
-                  <div class="card-header" id="headingCourse2">
+                  <div class="card-header" id="headingCourse4">
                      <h2 class="mb-0">
                         <button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#collapseCourse2" aria-expanded="false" aria-controls="collapseCourse2">
                            Archaeology of Hacking
                         </button>
                      </h2>
                   </div>
-                  <div id="collapseCourse2" class="collapse" aria-labelledby="headingCourse2" data-parent="#accordionCourses">
+                  <div id="collapseCourse4" class="collapse" aria-labelledby="headingCourse2" data-parent="#accordionCourses">
                      <div class="card-body">
                         Description of Course 4
                      </div>
@@ -437,14 +458,14 @@
                </div>
 
                <div class="card">
-                  <div class="card-header" id="headingCourse2">
+                  <div class="card-header" id="headingCourse5">
                      <h2 class="mb-0">
                         <button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#collapseCourse2" aria-expanded="false" aria-controls="collapseCourse2">
                            Systems Programming
                         </button>
                      </h2>
                   </div>
-                  <div id="collapseCourse2" class="collapse" aria-labelledby="headingCourse2" data-parent="#accordionCourses">
+                  <div id="collapseCourse5" class="collapse" aria-labelledby="headingCourse2" data-parent="#accordionCourses">
                      <div class="card-body">
                         Description of Course 5
                      </div>
@@ -452,14 +473,14 @@
                </div>
 
                <div class="card">
-                  <div class="card-header" id="headingCourse2">
+                  <div class="card-header" id="headingCourse6">
                      <h2 class="mb-0">
                         <button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#collapseCourse2" aria-expanded="false" aria-controls="collapseCourse2">
                            Fundamentals of Tech Ethics
                         </button>
                      </h2>
                   </div>
-                  <div id="collapseCourse2" class="collapse" aria-labelledby="headingCourse2" data-parent="#accordionCourses">
+                  <div id="collapseCourse6" class="collapse" aria-labelledby="headingCourse2" data-parent="#accordionCourses">
                      <div class="card-body">
                         Description of Course 6
                      </div>
@@ -467,14 +488,14 @@
                </div>
 
                <div class="card">
-                  <div class="card-header" id="headingCourse2">
+                  <div class="card-header" id="headingCourse7">
                      <h2 class="mb-0">
                         <button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#collapseCourse2" aria-expanded="false" aria-controls="collapseCourse2">
                            Data Structures
                         </button>
                      </h2>
                   </div>
-                  <div id="collapseCourse2" class="collapse" aria-labelledby="headingCourse2" data-parent="#accordionCourses">
+                  <div id="collapseCourse7" class="collapse" aria-labelledby="headingCourse2" data-parent="#accordionCourses">
                      <div class="card-body">
                         Description of Course 7
                      </div>
@@ -482,14 +503,14 @@
                </div>
 
                <div class="card">
-                  <div class="card-header" id="headingCourse2">
+                  <div class="card-header" id="headingCourse8">
                      <h2 class="mb-0">
                         <button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#collapseCourse2" aria-expanded="false" aria-controls="collapseCourse2">
                            Computer Architecture
                         </button>
                      </h2>
                   </div>
-                  <div id="collapseCourse2" class="collapse" aria-labelledby="headingCourse2" data-parent="#accordionCourses">
+                  <div id="collapseCourse8" class="collapse" aria-labelledby="headingCourse2" data-parent="#accordionCourses">
                      <div class="card-body">
                         Description of Course 8
                      </div>
@@ -511,63 +532,63 @@
             <h2 style="color: #890620;">Certifications & Licenses:</h2>
             <div class="accordion" id="accordionCourses">
                <div class="card">
-                  <div class="card-header" id="headingCourse2">
+                  <div class="card-header" id="headingCert1">
                      <h2 class="mb-0">
-                        <button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#collapseCourse2" aria-expanded="false" aria-controls="collapseCourse2">
+                        <button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#collapseCert1" aria-expanded="false" aria-controls="collapseCourse2">
                            Advanced NLP with Python for Machine Learning
                         </button>
                      </h2>
                   </div>
                </div>
                <div class="card">
-                  <div class="card-header" id="headingCourse2">
+                  <div class="card-header" id="headingCert2">
                      <h2 class="mb-0">
-                        <button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#collapseCourse2" aria-expanded="false" aria-controls="collapseCourse2">
+                        <button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#collapseCert2" aria-expanded="false" aria-controls="collapseCourse2">
                            Career Essentials in Generative AI by Microsoft and LinkedIn
                         </button>
                      </h2>
                   </div> 
                </div>
                <div class="card">
-                  <div class="card-header" id="headingCourse2">
+                  <div class="card-header" id="headingCert3">
                        <h2 class="mb-0">
-                           <button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#collapseCourse2" aria-expanded="false" aria-controls="collapseCourse2">
+                           <button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#collapseCert3" aria-expanded="false" aria-controls="collapseCourse2">
                               Career Essentials in Sustainable Tech by Microsoft and LinkedIn
                            </button>
                         </h2>
                      </div>
                </div>
                <div class="card">
-                  <div class="card-header" id="headingCourse2">
+                  <div class="card-header" id="headingCert4">
                        <h2 class="mb-0">
-                           <button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#collapseCourse2" aria-expanded="false" aria-controls="collapseCourse2">
+                           <button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#collapseCert4" aria-expanded="false" aria-controls="collapseCourse2">
                               Introduction to Digital Advertising 
                            </button>
                         </h2>
                      </div>
                </div>
                <div class="card">
-                  <div class="card-header" id="headingCourse2">
+                  <div class="card-header" id="headingCert5">
                        <h2 class="mb-0">
-                           <button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#collapseCourse2" aria-expanded="false" aria-controls="collapseCourse2">
+                           <button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#collapseCert5" aria-expanded="false" aria-controls="collapseCourse2">
                               Python Data Structures
                            </button>
                         </h2>
                      </div>
                </div>
                <div class="card">
-                  <div class="card-header" id="headingCourse2">
+                  <div class="card-header" id="headingCert6">
                        <h2 class="mb-0">
-                           <button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#collapseCourse2" aria-expanded="false" aria-controls="collapseCourse2">
+                           <button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#collapseCert6" aria-expanded="false" aria-controls="collapseCourse2">
                               SQL Programming
                            </button>
                         </h2>
                      </div>
                </div>
                <div class="card">
-                  <div class="card-header" id="headingCourse2">
+                  <div class="card-header" id="headingCert7">
                        <h2 class="mb-0">
-                           <button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#collapseCourse2" aria-expanded="false" aria-controls="collapseCourse2">
+                           <button class="btn btn-link w-100 h-100 text-left" type="button" data-toggle="collapse" data-target="#collapseCert7" aria-expanded="false" aria-controls="collapseCourse2">
                               How AI Intersects with Business and Sustainability
                            </button>
                         </h2>
@@ -622,16 +643,14 @@
      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
      <script src="js/main.js"></script>
      <script>
-      document.addEventListener('DOMContentLoaded', function() {
-          var containers = document.querySelectorAll('.image-container');
-          containers.forEach(function(container) {
-              if (container.querySelectorAll('picture').length === 1) {
-                  container.classList.add('single-image');
-              }
-          });
-      });
-      </script>
-      <script>
+         document.addEventListener('DOMContentLoaded', function() {
+            var containers = document.querySelectorAll('.image-container');
+            containers.forEach(function(container) {
+               if (container.querySelectorAll('picture').length === 1) {
+                     container.classList.add('single-image');
+               }
+            });
+         });
          document.addEventListener('DOMContentLoaded', function() {
          var navbarHeight = document.querySelector('.navbar').offsetHeight;
          var additionalOffset = 15; // Adjust this value as needed
@@ -653,8 +672,7 @@
             });
          });
       });
-      </script>
-      <script>
+
       document.addEventListener('DOMContentLoaded', function() {
          var navbarHeight = document.querySelector('.navbar').offsetHeight;
          var additionalOffset = 15; // Adjust this value as needed
@@ -676,8 +694,7 @@
             });
          });
       });
-   </script>
-   <script>
+
       document.addEventListener('DOMContentLoaded', function() {
         var logoLink = document.getElementById('logo-link');
         var topElement = document.getElementById('top');
