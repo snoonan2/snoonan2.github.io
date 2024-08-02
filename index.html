@@ -173,7 +173,7 @@
             width: 100%;
             background-color: #890620;
             color: #ebd4cb;
-            padding: 10px 0;
+            padding: 8px 0;
             z-index: 1000;
          }
 
@@ -718,25 +718,6 @@
       });
       </script>
       <script>
-         document.addEventListener('DOMContentLoaded', function() {
-             var accordions = document.querySelectorAll('.accordion');
-             
-             accordions.forEach(function(accordion) {
-                 accordion.addEventListener('click', function(e) {
-                     var target = e.target.closest('.card-header');
-                     if (!target) return;
-                     
-                     var content = target.nextElementSibling;
-                     if (content.style.maxHeight) {
-                         content.style.maxHeight = null;
-                         content.classList.remove('show');
-                     } else {
-                         content.style.maxHeight = content.scrollHeight + "px";
-                         content.classList.add('show');
-                     }
-                 });
-             });
-         });
          document.addEventListener('DOMContentLoaded', function() {
             var logoLink = document.getElementById('logo-link');
             
