@@ -266,7 +266,9 @@
              <source srcset="images/navy.png" type="image/svg+xml">
              <img src="images/navy.png" style="width: 100%; height: auto; max-width: 1100px; height: 10px;" class="mx-auto d-block" alt="Responsive image">
          </picture>
-          
+      </div>
+      
+      <div class="content-wrapper">
          <div class='py-3 my-3'></div>
             <section id="about">
                <h2 style="color: #b32c29;">About Me!</h2>
@@ -287,6 +289,7 @@
                <img src="images/navy.png" style="width: 100%; height: auto; max-width: 1100px; height: 10px;" class="navy-bar mx-auto d-block my-0" alt="Responsive image">
             </section>
          </div>
+      <div>
          
          <div class='py-3 my-1'></div>
          <section id="project">
@@ -417,6 +420,7 @@
              <img src="images/boots.gif" style="width: 100%; height: 600px; max-width: 600px; height: 200px;" class="mx-auto d-block my-0" alt="Responsive image">
              <img src="images/navy.png" style="width: 100%; height: auto; max-width: 1100px; height: 10px;" class="navy-bar mx-auto d-block my-0" alt="Responsive image" id="experience">
          </section>
+      
          
          <section id="experience">
              <h2 style="color: #b32c29;">Experience:</h2>
@@ -885,8 +889,9 @@
       <img src="images/navy.png" style="width: 100%; height: auto; max-width: 1100px; height: 10px;" class="navy-bar mx-auto d-block my-0" alt="Responsive image">
       <img src="images/boots.gif" style="width: 100%; height: 600px; max-width: 600px; height: 200px;" class="mx-auto d-block my-0" alt="Responsive image">
       <img src="images/navy.png" style="width: 100%; height: auto; max-width: 1100px; height: 10px;" class="navy-bar mx-auto d-block my-0" alt="Responsive image">
-      <img src="images/backboots.png" style="width: auto; height: auto; max-width: 175px; height: 150px;" id="backboots" class="text-center" alt="Responsive image">
-
+      <div style="display: flex; justify-content: center;">
+         <img src="images/backboots.png" style="width: auto; height: auto; max-width: 175px; height: 150px;" id="backboots" alt="Responsive image">
+       </div>
          
      <footer class="footer">
       <div class="container-fluid">
@@ -994,12 +999,8 @@
       <script>
          document.addEventListener('DOMContentLoaded', function() {
             var logoLink = document.getElementById('logo-link');
-            var backbootsLink = document.getElementById('backboots');
             
             logoLink.addEventListener('click', function(e) {
-               e.preventDefault();
-
-            backBootsLink.addEventListener('click', function(e) {
                e.preventDefault();
                
                // Scroll to the top of the page
@@ -1016,7 +1017,6 @@
                });
                
             });
-         });
          });
          document.addEventListener('DOMContentLoaded', function() {
             var accordionItems = document.querySelectorAll('.accordion .card-header');
@@ -1095,6 +1095,28 @@
                   }
                });
             });
+         });
+         document.addEventListener('DOMContentLoaded', function() {
+            var backbootsLink = document.getElementById('backboots');
+            
+            if (backbootsLink) {
+               backbootsLink.addEventListener('click', function(e) {
+                     e.preventDefault();
+                     
+                     // Scroll to the top of the page
+                     window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                     });
+                     
+                     // Close all open accordion panels
+                     var openPanels = document.querySelectorAll('.accordion .collapse.show');
+                     openPanels.forEach(function(panel) {
+                        panel.classList.remove('show');
+                        panel.style.maxHeight = null;
+                     });
+               });
+            }
          });
          </script>
          </script>
